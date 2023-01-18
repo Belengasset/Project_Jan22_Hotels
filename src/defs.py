@@ -1,0 +1,1 @@
+'''Es un archivo donde se encuentran todas las definiciones de tal manera que los archivos donde aparece el codigo esten mas limpios'''

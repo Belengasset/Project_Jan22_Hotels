@@ -1,0 +1,4809 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b332130205a204e862d805f5fe529e60 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_b332130205a204e862d805f5fe529e60" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_b332130205a204e862d805f5fe529e60 = L.map(
+                "map_b332130205a204e862d805f5fe529e60",
+                {
+                    center: [23.037760824358973, 5.2355507908455685],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 2,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_143aa663dfdcfec37ce5a7502acbcb36 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var marker_61fe6c4fe9f04838b603805ba7a5b627 = L.marker(
+                [43.0610689, 11.4900203],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_92b72fd25f3177fa1c68e7ed57aad1d7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_61fe6c4fe9f04838b603805ba7a5b627.setIcon(icon_92b72fd25f3177fa1c68e7ed57aad1d7);
+        
+    
+            marker_61fe6c4fe9f04838b603805ba7a5b627.bindTooltip(
+                `<div>
+                     Rosewood Castiglion del Bosco
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c10f938dca30430288add6978b2c409d = L.marker(
+                [36.399662250000006, 25.476708914676557],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_921cd9ba44202bc3a7881f087b4e8d9d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c10f938dca30430288add6978b2c409d.setIcon(icon_921cd9ba44202bc3a7881f087b4e8d9d);
+        
+    
+            marker_c10f938dca30430288add6978b2c409d.bindTooltip(
+                `<div>
+                     Grace Hotel
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_255bf510f1b084a9a85406ff451ef1e4 = L.marker(
+                [4.009165299999999, 73.40331027632806],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_4f1805a345414ad7dc3b3e13e8bb0631 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_255bf510f1b084a9a85406ff451ef1e4.setIcon(icon_4f1805a345414ad7dc3b3e13e8bb0631);
+        
+    
+            marker_255bf510f1b084a9a85406ff451ef1e4.bindTooltip(
+                `<div>
+                     Waldorf Astoria Maldives Ithaafushi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_197c456a7a67e620960f57df8b6db120 = L.marker(
+                [43.58437, -71.207886],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_392acd5dfd7545557412fd5e614bfedd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_197c456a7a67e620960f57df8b6db120.setIcon(icon_392acd5dfd7545557412fd5e614bfedd);
+        
+    
+            marker_197c456a7a67e620960f57df8b6db120.bindTooltip(
+                `<div>
+                     Pickering House Inn
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e903e6028e2eaeb7c9dd63cba37c8712 = L.marker(
+                [4.437813800000001, 73.53966432958072],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_1b548d4e5d23534ada4e391d295a9e78 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e903e6028e2eaeb7c9dd63cba37c8712.setIcon(icon_1b548d4e5d23534ada4e391d295a9e78);
+        
+    
+            marker_e903e6028e2eaeb7c9dd63cba37c8712.bindTooltip(
+                `<div>
+                     One&Only Reethi Rah
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8a9d1ab9bd7f09fe821d0ca0b2a417fa = L.marker(
+                [31.6258257, -7.9891608],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_9d233dd67824a092a57678957c18d7cf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8a9d1ab9bd7f09fe821d0ca0b2a417fa.setIcon(icon_9d233dd67824a092a57678957c18d7cf);
+        
+    
+            marker_8a9d1ab9bd7f09fe821d0ca0b2a417fa.bindTooltip(
+                `<div>
+                     Royal Mansour Marrakech
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_46778d7bca0c3ef75b53b9c21dcf7e42 = L.marker(
+                [-8.3304977, 115.0906401],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_b5bb19e38729b46e67128e5ae21f58a7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_46778d7bca0c3ef75b53b9c21dcf7e42.setIcon(icon_b5bb19e38729b46e67128e5ae21f58a7);
+        
+    
+            marker_46778d7bca0c3ef75b53b9c21dcf7e42.bindTooltip(
+                `<div>
+                     Capella Ubud
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3e76162f75651b2f86b369a2fd7ec3c2 = L.marker(
+                [40.7127281, -74.0060152],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_2bb550caa19535b0411c34e420f93200 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3e76162f75651b2f86b369a2fd7ec3c2.setIcon(icon_2bb550caa19535b0411c34e420f93200);
+        
+    
+            marker_3e76162f75651b2f86b369a2fd7ec3c2.bindTooltip(
+                `<div>
+                     The Lowell
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_149e170a7e230e20e48d866a3e0c03d9 = L.marker(
+                [48.8588897, 2.3200410217200766],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_a8a94ff9ade94a775306eb89b0be2802 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_149e170a7e230e20e48d866a3e0c03d9.setIcon(icon_a8a94ff9ade94a775306eb89b0be2802);
+        
+    
+            marker_149e170a7e230e20e48d866a3e0c03d9.bindTooltip(
+                `<div>
+                     Hôtel Madame Rêve
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_81f46b86c11de169e27560a3ec415732 = L.marker(
+                [40.4167047, -3.7035825],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_702a43caa0ca03ec1288800f8b3e44d3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_81f46b86c11de169e27560a3ec415732.setIcon(icon_702a43caa0ca03ec1288800f8b3e44d3);
+        
+    
+            marker_81f46b86c11de169e27560a3ec415732.bindTooltip(
+                `<div>
+                     Rosewood Villa Magna
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_96ba80fe0ae1620a50825e45b4efc0bd = L.marker(
+                [28.6138954, 77.2090057],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_9967c6d00b224bb8988c4d8c3bc0452f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_96ba80fe0ae1620a50825e45b4efc0bd.setIcon(icon_9967c6d00b224bb8988c4d8c3bc0452f);
+        
+    
+            marker_96ba80fe0ae1620a50825e45b4efc0bd.bindTooltip(
+                `<div>
+                     The Oberoi New Delhi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7ac72eebeb379a23dc45ff35e19f7527 = L.marker(
+                [24.578721, 73.6862571],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_764cf6081ec83eb70686b40813bb6daf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7ac72eebeb379a23dc45ff35e19f7527.setIcon(icon_764cf6081ec83eb70686b40813bb6daf);
+        
+    
+            marker_7ac72eebeb379a23dc45ff35e19f7527.bindTooltip(
+                `<div>
+                     The Oberoi Udaivilas
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_af2f0dc808a689a9d43fa83f506df55c = L.marker(
+                [-8.3304977, 115.0906401],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_960f209239066e81a7e060c611ed5ef2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_af2f0dc808a689a9d43fa83f506df55c.setIcon(icon_960f209239066e81a7e060c611ed5ef2);
+        
+    
+            marker_af2f0dc808a689a9d43fa83f506df55c.bindTooltip(
+                `<div>
+                     Mandapa, a Ritz-Carlton Reserve
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7ab886f91153eb05a6e1ac2f6a9008f4 = L.marker(
+                [-1.4741392, 29.568173968338307],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_5945ca6322f9e39ef6e1a4fdc593f211 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7ab886f91153eb05a6e1ac2f6a9008f4.setIcon(icon_5945ca6322f9e39ef6e1a4fdc593f211);
+        
+    
+            marker_7ab886f91153eb05a6e1ac2f6a9008f4.bindTooltip(
+                `<div>
+                     Wilderness Safaris Bisate Lodge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_280c5a1823649d17438a51d7e0cbbb7b = L.marker(
+                [43.7698712, 11.2555757],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_4f8a741cc361a5abc112712ddfff81ea = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_280c5a1823649d17438a51d7e0cbbb7b.setIcon(icon_4f8a741cc361a5abc112712ddfff81ea);
+        
+    
+            marker_280c5a1823649d17438a51d7e0cbbb7b.bindTooltip(
+                `<div>
+                     Portrait Firenze
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4333ff3e449eb51eee535c5b21eba7d8 = L.marker(
+                [41.0091982, 28.9662187],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_69358264401e29f1482cc9c6aaf54ba7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4333ff3e449eb51eee535c5b21eba7d8.setIcon(icon_69358264401e29f1482cc9c6aaf54ba7);
+        
+    
+            marker_4333ff3e449eb51eee535c5b21eba7d8.bindTooltip(
+                `<div>
+                     Raffles Istanbul
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_784aae62419dea8e49d7586bd6a71dfd = L.marker(
+                [31.6258257, -7.9891608],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_c5e54982b46c55067d6137bbc6a0d01b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_784aae62419dea8e49d7586bd6a71dfd.setIcon(icon_c5e54982b46c55067d6137bbc6a0d01b);
+        
+    
+            marker_784aae62419dea8e49d7586bd6a71dfd.bindTooltip(
+                `<div>
+                     The Oberoi Marrakech
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_abe4834c83c8cc23d5e3665fe9f02a92 = L.marker(
+                [21.0294498, 105.8544441],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_35195f151c411d3309414b1624a438e3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_abe4834c83c8cc23d5e3665fe9f02a92.setIcon(icon_35195f151c411d3309414b1624a438e3);
+        
+    
+            marker_abe4834c83c8cc23d5e3665fe9f02a92.bindTooltip(
+                `<div>
+                     Capella Hanoi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ea7b8207c4ac2518b6d8005bee748078 = L.marker(
+                [26.6279798, -80.4494174],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_a90701a5761123806b300f190af4ebff = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ea7b8207c4ac2518b6d8005bee748078.setIcon(icon_a90701a5761123806b300f190af4ebff);
+        
+    
+            marker_ea7b8207c4ac2518b6d8005bee748078.bindTooltip(
+                `<div>
+                     White Elephant Palm Beach
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b4f2b1dc6fa867fa95c98d172341b1ca = L.marker(
+                [32.7876012, -79.9402728],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_b9decb09cec4452ef41ecb5361485ad5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b4f2b1dc6fa867fa95c98d172341b1ca.setIcon(icon_b9decb09cec4452ef41ecb5361485ad5);
+        
+    
+            marker_b4f2b1dc6fa867fa95c98d172341b1ca.bindTooltip(
+                `<div>
+                     The Loutrel
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b3cc4902adc6b3ae720a555878b32d8d = L.marker(
+                [-13.5170887, -71.9785356],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_34c0c9b95d29ae3b7459cb10a85f6329 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b3cc4902adc6b3ae720a555878b32d8d.setIcon(icon_34c0c9b95d29ae3b7459cb10a85f6329);
+        
+    
+            marker_b3cc4902adc6b3ae720a555878b32d8d.bindTooltip(
+                `<div>
+                     Monasterio
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e3b394cd94805595e7c9508a7cf9545b = L.marker(
+                [40.0271075, 23.434252170765312],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_c8c036f779d04f0a22f804ed3e5fd34d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e3b394cd94805595e7c9508a7cf9545b.setIcon(icon_c8c036f779d04f0a22f804ed3e5fd34d);
+        
+    
+            marker_e3b394cd94805595e7c9508a7cf9545b.bindTooltip(
+                `<div>
+                     Sani Asterias
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b61f998e5531c4335c860782abfb5120 = L.marker(
+                [51.5073219, -0.1276474],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_421685b2a7563f10411e82eaf75cd356 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b61f998e5531c4335c860782abfb5120.setIcon(icon_421685b2a7563f10411e82eaf75cd356);
+        
+    
+            marker_b61f998e5531c4335c860782abfb5120.bindTooltip(
+                `<div>
+                     Shangri-La the Shard
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8576b098604f0f41000992f26c787ad9 = L.marker(
+                [43.755877, 1.4679519],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_b257289dd6765fc667b18fb01b8cadbb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8576b098604f0f41000992f26c787ad9.setIcon(icon_b257289dd6765fc667b18fb01b8cadbb);
+        
+    
+            marker_8576b098604f0f41000992f26c787ad9.bindTooltip(
+                `<div>
+                     Coquillade Provence Resort & Spa
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4b73593b1fece01dc2f48d2fe0e781dc = L.marker(
+                [28.6138954, 77.2090057],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_34c42a0785b04c3d7be94027065f26e2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4b73593b1fece01dc2f48d2fe0e781dc.setIcon(icon_34c42a0785b04c3d7be94027065f26e2);
+        
+    
+            marker_4b73593b1fece01dc2f48d2fe0e781dc.bindTooltip(
+                `<div>
+                     Taj Palace
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d46258c7001302fcaafa3510dae198ba = L.marker(
+                [41.8755616, -87.6244212],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_deb169bcceaa98ff34747f0d5d83ac41 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d46258c7001302fcaafa3510dae198ba.setIcon(icon_deb169bcceaa98ff34747f0d5d83ac41);
+        
+    
+            marker_d46258c7001302fcaafa3510dae198ba.bindTooltip(
+                `<div>
+                     Pendry Chicago
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4a966e572a09923be160ef8aae41cd73 = L.marker(
+                [10.4716839, -84.644436],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_053ce476b9011f82aa73007828c004cb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4a966e572a09923be160ef8aae41cd73.setIcon(icon_053ce476b9011f82aa73007828c004cb);
+        
+    
+            marker_4a966e572a09923be160ef8aae41cd73.bindTooltip(
+                `<div>
+                     Nayara Tented Camp
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2aa994df7a34815928694ea2657d6377 = L.marker(
+                [10.291151450000001, -84.81364393886889],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_ab3ec281b8a4fb334eeeca72b5f70fdc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2aa994df7a34815928694ea2657d6377.setIcon(icon_ab3ec281b8a4fb334eeeca72b5f70fdc);
+        
+    
+            marker_2aa994df7a34815928694ea2657d6377.bindTooltip(
+                `<div>
+                     Hotel Belmar
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3e16c2a52dda86ba1f561cfb779910ae = L.marker(
+                [49.08426, 3.9774],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_9bcfe72ff0f4386dacec5ef4417614f3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3e16c2a52dda86ba1f561cfb779910ae.setIcon(icon_9bcfe72ff0f4386dacec5ef4417614f3);
+        
+    
+            marker_3e16c2a52dda86ba1f561cfb779910ae.bindTooltip(
+                `<div>
+                     Royal Champagne Hôtel & Spa
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d475c4e8ffcf703ae291cd93510c55e4 = L.marker(
+                [41.9988889, -92.1979353],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_8ec77dc8dae596ad537ec66eb681b1fc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d475c4e8ffcf703ae291cd93510c55e4.setIcon(icon_8ec77dc8dae596ad537ec66eb681b1fc);
+        
+    
+            marker_d475c4e8ffcf703ae291cd93510c55e4.bindTooltip(
+                `<div>
+                     Under Canvas Mount Rushmore
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_67b0ccc175f67ffec8a22cd600e55f25 = L.marker(
+                [38.8950368, -77.0365427],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_8535ba267041a3d41a8b5a8d793bf169 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_67b0ccc175f67ffec8a22cd600e55f25.setIcon(icon_8535ba267041a3d41a8b5a8d793bf169);
+        
+    
+            marker_67b0ccc175f67ffec8a22cd600e55f25.bindTooltip(
+                `<div>
+                     Riggs Washington D.C.
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_822a2ddaab91d519a5ff6c46b64f22fe = L.marker(
+                [22.8938884, -109.9200604],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_b1aa2f3fd68af947ec863c306b6f43e8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_822a2ddaab91d519a5ff6c46b64f22fe.setIcon(icon_b1aa2f3fd68af947ec863c306b6f43e8);
+        
+    
+            marker_822a2ddaab91d519a5ff6c46b64f22fe.bindTooltip(
+                `<div>
+                     Waldorf Astoria Los Cabos Pedregal
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b86585ecae84f790a3e7cf3cffcd279d = L.marker(
+                [26.031249850000002, 76.4906652236282],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_197bc48a831a3018d8ceb02867baba8a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b86585ecae84f790a3e7cf3cffcd279d.setIcon(icon_197bc48a831a3018d8ceb02867baba8a);
+        
+    
+            marker_b86585ecae84f790a3e7cf3cffcd279d.bindTooltip(
+                `<div>
+                     The Oberoi Vanyavilas Wildlife Resort
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d3ae1c7d2ea52b01637b189c08ec00dd = L.marker(
+                [36.399662250000006, 25.476708914676557],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_66ca9dc3bb22caa734e5c6d5766e74b2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d3ae1c7d2ea52b01637b189c08ec00dd.setIcon(icon_66ca9dc3bb22caa734e5c6d5766e74b2);
+        
+    
+            marker_d3ae1c7d2ea52b01637b189c08ec00dd.bindTooltip(
+                `<div>
+                     Canaves Oia Epitome 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_203a79c687c7980c42f31b8986a90415 = L.marker(
+                [12.567301, 99.9547134],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_8945a0e545ad435587397432da30807a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_203a79c687c7980c42f31b8986a90415.setIcon(icon_8945a0e545ad435587397432da30807a);
+        
+    
+            marker_203a79c687c7980c42f31b8986a90415.bindTooltip(
+                `<div>
+                     The Standard 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ae371752583b9e443b3d36a4c3e83b60 = L.marker(
+                [27.1752554, 78.0098161],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_68c10b276c2cd610b56f845849484017 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ae371752583b9e443b3d36a4c3e83b60.setIcon(icon_68c10b276c2cd610b56f845849484017);
+        
+    
+            marker_ae371752583b9e443b3d36a4c3e83b60.bindTooltip(
+                `<div>
+                     The Oberoi Amarvilas
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f53175721092adc910289753e9a493d4 = L.marker(
+                [40.63367, 14.6026095],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_928709cef6d18b966e5366a0cc8fecff = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f53175721092adc910289753e9a493d4.setIcon(icon_928709cef6d18b966e5366a0cc8fecff);
+        
+    
+            marker_f53175721092adc910289753e9a493d4.bindTooltip(
+                `<div>
+                     Hotel Santa Caterina
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_94d0271958ca30a5a952c00fb76986e7 = L.marker(
+                [13.3617562, 103.8590321],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_b6e8249196b7ec59349882a4df969a1e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_94d0271958ca30a5a952c00fb76986e7.setIcon(icon_b6e8249196b7ec59349882a4df969a1e);
+        
+    
+            marker_94d0271958ca30a5a952c00fb76986e7.bindTooltip(
+                `<div>
+                     Raffles Grand Hotel d'Angkor
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_98b027adb9a239d39867719ddade5c1a = L.marker(
+                [-9.795874, 120.15245652768192],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_3e8637842891cf95534bd44aac7ce1e8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_98b027adb9a239d39867719ddade5c1a.setIcon(icon_3e8637842891cf95534bd44aac7ce1e8);
+        
+    
+            marker_98b027adb9a239d39867719ddade5c1a.bindTooltip(
+                `<div>
+                     Nihi Sumba
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cd362bf23b4ed838c1c47c368b6a1e5a = L.marker(
+                [48.8588897, 2.3200410217200766],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_3fed81e3b56b2941be3a223c52b674f8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_cd362bf23b4ed838c1c47c368b6a1e5a.setIcon(icon_3fed81e3b56b2941be3a223c52b674f8);
+        
+    
+            marker_cd362bf23b4ed838c1c47c368b6a1e5a.bindTooltip(
+                `<div>
+                     La Réserve Paris
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ccd60dd9a1f59043b31ec54192c9a54d = L.marker(
+                [41.8933203, 12.4829321],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_4f80ffc4fdcfd19200da03efaf1298ca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ccd60dd9a1f59043b31ec54192c9a54d.setIcon(icon_4f80ffc4fdcfd19200da03efaf1298ca);
+        
+    
+            marker_ccd60dd9a1f59043b31ec54192c9a54d.bindTooltip(
+                `<div>
+                     Hotel de la Ville
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_57a9f5996f132ed48b604c067ca985c2 = L.marker(
+                [40.6286581, 14.4854955],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_bfdf9fa3926904a10fb1dee1e4f25575 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_57a9f5996f132ed48b604c067ca985c2.setIcon(icon_bfdf9fa3926904a10fb1dee1e4f25575);
+        
+    
+            marker_57a9f5996f132ed48b604c067ca985c2.bindTooltip(
+                `<div>
+                     Il San Pietro di Positano
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_29c41091c09b09f62f6eb7e1494882ae = L.marker(
+                [8.1144562, 98.62389977996429],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_304cb6fb7f44222bdcdcdd7004e39455 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_29c41091c09b09f62f6eb7e1494882ae.setIcon(icon_304cb6fb7f44222bdcdcdd7004e39455);
+        
+    
+            marker_29c41091c09b09f62f6eb7e1494882ae.bindTooltip(
+                `<div>
+                     Six Senses Yao Noi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_baf6e3b085db36d36ea3d879db401585 = L.marker(
+                [36.7213028, -4.4216366],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_323be996d4c6117e65e6c18ae3fa7b06 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_baf6e3b085db36d36ea3d879db401585.setIcon(icon_323be996d4c6117e65e6c18ae3fa7b06);
+        
+    
+            marker_baf6e3b085db36d36ea3d879db401585.bindTooltip(
+                `<div>
+                     Finca Cortesin Hotel Golf & Spa
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_54ff1aefe133ea3cd94b0d4860e83ef3 = L.marker(
+                [15.575915, -61.455588],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_9d36a54b5594c98fac8a98324ea64ef3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_54ff1aefe133ea3cd94b0d4860e83ef3.setIcon(icon_9d36a54b5594c98fac8a98324ea64ef3);
+        
+    
+            marker_54ff1aefe133ea3cd94b0d4860e83ef3.bindTooltip(
+                `<div>
+                     Secret Bay
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ea7fef7c67aaebfe15ddf6eb1eae618e = L.marker(
+                [-33.928992, 18.417396],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_66092ac2cc635ed62ca6487953a058e1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ea7fef7c67aaebfe15ddf6eb1eae618e.setIcon(icon_66092ac2cc635ed62ca6487953a058e1);
+        
+    
+            marker_ea7fef7c67aaebfe15ddf6eb1eae618e.bindTooltip(
+                `<div>
+                     Cape Grace
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_104f75a2774247740f860bd3f7ee0076 = L.marker(
+                [24.578721, 73.6862571],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_b53130e75fc13fe716667b1136996840 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_104f75a2774247740f860bd3f7ee0076.setIcon(icon_b53130e75fc13fe716667b1136996840);
+        
+    
+            marker_104f75a2774247740f860bd3f7ee0076.bindTooltip(
+                `<div>
+                     Taj Lake Palace
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1b23b24b9e81a70b373a3b5d294ad662 = L.marker(
+                [17.360589, 78.4740613],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_fde3af1dc4caeab9b2b7066494e546da = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1b23b24b9e81a70b373a3b5d294ad662.setIcon(icon_fde3af1dc4caeab9b2b7066494e546da);
+        
+    
+            marker_1b23b24b9e81a70b373a3b5d294ad662.bindTooltip(
+                `<div>
+                     Taj Falaknuma Palace
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0113ac7fa5a138a88908f568632ed3ad = L.marker(
+                [-8.3304977, 115.0906401],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_8706465bac1604c5fda20363b849b25f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0113ac7fa5a138a88908f568632ed3ad.setIcon(icon_8706465bac1604c5fda20363b849b25f);
+        
+    
+            marker_0113ac7fa5a138a88908f568632ed3ad.bindTooltip(
+                `<div>
+                     Alila Villas Uluwatu
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b3f982579183d3ab6673e91ed0735b8f = L.marker(
+                [45.275611, -71.972122],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_da05755b2ba392b066074eab7e71fe75 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b3f982579183d3ab6673e91ed0735b8f.setIcon(icon_da05755b2ba392b066074eab7e71fe75);
+        
+    
+            marker_b3f982579183d3ab6673e91ed0735b8f.bindTooltip(
+                `<div>
+                     Manoir Hovey
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ea28e392b9b9ff5c867c47d8b437d12b = L.marker(
+                [8.7003427, 106.60678547974496],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_0ef2a8b72ca0d68d7687dce7af3e395c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ea28e392b9b9ff5c867c47d8b437d12b.setIcon(icon_0ef2a8b72ca0d68d7687dce7af3e395c);
+        
+    
+            marker_ea28e392b9b9ff5c867c47d8b437d12b.bindTooltip(
+                `<div>
+                     Six Senses Con Dao
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6e724e2b0939e1fbb697d621f6a7240b = L.marker(
+                [-34.787093049999996, -68.43818677312292],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_c515448f6b47ccbf877bdf6f6148509c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6e724e2b0939e1fbb697d621f6a7240b.setIcon(icon_c515448f6b47ccbf877bdf6f6148509c);
+        
+    
+            marker_6e724e2b0939e1fbb697d621f6a7240b.bindTooltip(
+                `<div>
+                     Cavas Wine Lodge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ceeef99b192bca2dace901c644b58917 = L.marker(
+                [45.9835245, 9.191490924303547],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_391a6a0e855a4a79b4ea4feea28ad5da = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ceeef99b192bca2dace901c644b58917.setIcon(icon_391a6a0e855a4a79b4ea4feea28ad5da);
+        
+    
+            marker_ceeef99b192bca2dace901c644b58917.bindTooltip(
+                `<div>
+                     Grand Hotel Tremezzo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6e5f8340dec0b46a020e45e961e78dbc = L.marker(
+                [10.62017945, -84.42581794981697],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_4ca3aea570ffb92893dabadaca79cd21 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6e5f8340dec0b46a020e45e961e78dbc.setIcon(icon_4ca3aea570ffb92893dabadaca79cd21);
+        
+    
+            marker_6e5f8340dec0b46a020e45e961e78dbc.bindTooltip(
+                `<div>
+                     Nayara Springs
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_744536b6cca060cfc05fe224c1dc3ff1 = L.marker(
+                [31.2182863, -81.3612077],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_139269e3fff5a0ae159243f80202d71d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_744536b6cca060cfc05fe224c1dc3ff1.setIcon(icon_139269e3fff5a0ae159243f80202d71d);
+        
+    
+            marker_744536b6cca060cfc05fe224c1dc3ff1.bindTooltip(
+                `<div>
+                     Lodge on Little St. Simons Island
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_39444990f5a65bc3157fd1b87a11d54b = L.marker(
+                [11.4386984, -85.9392133],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_7bdb2ec274485d732b0a3290a4a7fe49 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_39444990f5a65bc3157fd1b87a11d54b.setIcon(icon_7bdb2ec274485d732b0a3290a4a7fe49);
+        
+    
+            marker_39444990f5a65bc3157fd1b87a11d54b.bindTooltip(
+                `<div>
+                     Rancho Santana
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7f681b838230d5a601e5298c24e2c1ab = L.marker(
+                [7.9366015, 98.3529292],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_59f9f1515bf00e882f762e43583de78b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7f681b838230d5a601e5298c24e2c1ab.setIcon(icon_59f9f1515bf00e882f762e43583de78b);
+        
+    
+            marker_7f681b838230d5a601e5298c24e2c1ab.bindTooltip(
+                `<div>
+                     Amanpuri
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0d4174c4fc82f16334011d652193be6d = L.marker(
+                [31.6258257, -7.9891608],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_c2b3c3a967d5b23e4540b3441eefd675 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0d4174c4fc82f16334011d652193be6d.setIcon(icon_c2b3c3a967d5b23e4540b3441eefd675);
+        
+    
+            marker_0d4174c4fc82f16334011d652193be6d.bindTooltip(
+                `<div>
+                     Mandarin Oriental Marrakech
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ed4c9fb7beeae1e770d4a8d70a3d81f4 = L.marker(
+                [-16.7802184, 179.3328955],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_027d6c4f6ac639437db7ca492543dc73 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ed4c9fb7beeae1e770d4a8d70a3d81f4.setIcon(icon_027d6c4f6ac639437db7ca492543dc73);
+        
+    
+            marker_ed4c9fb7beeae1e770d4a8d70a3d81f4.bindTooltip(
+                `<div>
+                     Namale Resort & Spa
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ee77511067e6311448e011daafe933f7 = L.marker(
+                [-3.49019715, 35.56828793576915],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_aab6553fa19a63dd2dc61ed02cac0a5a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ee77511067e6311448e011daafe933f7.setIcon(icon_aab6553fa19a63dd2dc61ed02cac0a5a);
+        
+    
+            marker_ee77511067e6311448e011daafe933f7.bindTooltip(
+                `<div>
+                     Gibb's Farm
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b06869f53fd357b849418f1b1e2a88ff = L.marker(
+                [13.90904385, -60.97792414113452],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_2475f2a23f46f2037c8299db694b8c35 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b06869f53fd357b849418f1b1e2a88ff.setIcon(icon_2475f2a23f46f2037c8299db694b8c35);
+        
+    
+            marker_b06869f53fd357b849418f1b1e2a88ff.bindTooltip(
+                `<div>
+                     Jade Mountain
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f5a06cb4d7b53933a6c2e14c1ce7d9ae = L.marker(
+                [40.834432, 17.358399],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_1a7b11d3e402ed6be96961372fc976c5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f5a06cb4d7b53933a6c2e14c1ce7d9ae.setIcon(icon_1a7b11d3e402ed6be96961372fc976c5);
+        
+    
+            marker_f5a06cb4d7b53933a6c2e14c1ce7d9ae.bindTooltip(
+                `<div>
+                     Borgo Egnazia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_88970ad190ccb8ae7b9a4f4a555fdc21 = L.marker(
+                [35.021041, 135.7556075],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_64d5c965f053b43e6ee94da66ba0b287 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_88970ad190ccb8ae7b9a4f4a555fdc21.setIcon(icon_64d5c965f053b43e6ee94da66ba0b287);
+        
+    
+            marker_88970ad190ccb8ae7b9a4f4a555fdc21.bindTooltip(
+                `<div>
+                     Four Seasons Hotel Kyoto
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c4cb970e2c6aa5d1b6593e46da059719 = L.marker(
+                [34.4221319, -119.702667],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_beb93afea7142eda84a26b621a3d8f99 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c4cb970e2c6aa5d1b6593e46da059719.setIcon(icon_beb93afea7142eda84a26b621a3d8f99);
+        
+    
+            marker_c4cb970e2c6aa5d1b6593e46da059719.bindTooltip(
+                `<div>
+                     San Ysidro Ranch
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_46dc4b99842e226c7987ec3a44ba5197 = L.marker(
+                [51.5073219, -0.1276474],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_e415278c261ef51829afc496bfa288df = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_46dc4b99842e226c7987ec3a44ba5197.setIcon(icon_e415278c261ef51829afc496bfa288df);
+        
+    
+            marker_46dc4b99842e226c7987ec3a44ba5197.bindTooltip(
+                `<div>
+                     The Goring
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_66b8ab4df71f63cc12a62bbcc1f5ca89 = L.marker(
+                [26.9154576, 75.8189817],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_de30a65876dee3955c30ae7d5f34a971 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_66b8ab4df71f63cc12a62bbcc1f5ca89.setIcon(icon_de30a65876dee3955c30ae7d5f34a971);
+        
+    
+            marker_66b8ab4df71f63cc12a62bbcc1f5ca89.bindTooltip(
+                `<div>
+                     The Oberoi Rajvilas
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b5c1a2228f16235f8453a4cbb74d1bcb = L.marker(
+                [12.5888864, -61.3995276],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_20cb9d1ea4473ccf15026e6692596e9b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b5c1a2228f16235f8453a4cbb74d1bcb.setIcon(icon_20cb9d1ea4473ccf15026e6692596e9b);
+        
+    
+            marker_b5c1a2228f16235f8453a4cbb74d1bcb.bindTooltip(
+                `<div>
+                     Palm Island Resort
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e89bbc6948c707b9f984e027907be633 = L.marker(
+                [43.7698712, 11.2555757],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_1212c8776c8953f39e238cd3bfaac41a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e89bbc6948c707b9f984e027907be633.setIcon(icon_1212c8776c8953f39e238cd3bfaac41a);
+        
+    
+            marker_e89bbc6948c707b9f984e027907be633.bindTooltip(
+                `<div>
+                     Hotel Savoy
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6c4ef1d1047afeaa66bd6d83ed3c4a2f = L.marker(
+                [26.9154576, 75.8189817],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_8bc6c0fccc2438e558c0626bd0789005 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6c4ef1d1047afeaa66bd6d83ed3c4a2f.setIcon(icon_8bc6c0fccc2438e558c0626bd0789005);
+        
+    
+            marker_6c4ef1d1047afeaa66bd6d83ed3c4a2f.bindTooltip(
+                `<div>
+                     Rambagh Palace
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_873c5bd02ed8ba28abae55b37964db65 = L.marker(
+                [17.1184569, -61.8448509],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_b881c146f020fd00bda9bbc9f913355f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_873c5bd02ed8ba28abae55b37964db65.setIcon(icon_b881c146f020fd00bda9bbc9f913355f);
+        
+    
+            marker_873c5bd02ed8ba28abae55b37964db65.bindTooltip(
+                `<div>
+                     Curtain Bluff
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b1cf49f98a23fe1ee213ddfadf2f86a8 = L.marker(
+                [38.8051095, -77.0470229],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_1df44c7035501e4ee035871b7ea14abc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b1cf49f98a23fe1ee213ddfadf2f86a8.setIcon(icon_1df44c7035501e4ee035871b7ea14abc);
+        
+    
+            marker_b1cf49f98a23fe1ee213ddfadf2f86a8.bindTooltip(
+                `<div>
+                     Morrison House Old Town Alexandria, Autograph Collection
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_111635551428c7ff73a153932b29cb3f = L.marker(
+                [39.1014537, -84.5124602],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_48a49bc9d872cdaac9f4f78021c5ab77 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_111635551428c7ff73a153932b29cb3f.setIcon(icon_48a49bc9d872cdaac9f4f78021c5ab77);
+        
+    
+            marker_111635551428c7ff73a153932b29cb3f.bindTooltip(
+                `<div>
+                     The Lytle Park Hotel, Autograph Collection
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a06efe13769983965dcdc15de4539b13 = L.marker(
+                [39.19056, -98.041991],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_567acc337c33c758d35b5d030dd9112c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a06efe13769983965dcdc15de4539b13.setIcon(icon_567acc337c33c758d35b5d030dd9112c);
+        
+    
+            marker_a06efe13769983965dcdc15de4539b13.bindTooltip(
+                `<div>
+                     Twin Farms
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6b8c5e000bcbe3acb19d34fc427c0a0b = L.marker(
+                [42.2586461, -87.8407055],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_8f71630ffa8737522f108d18904a287b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6b8c5e000bcbe3acb19d34fc427c0a0b.setIcon(icon_8f71630ffa8737522f108d18904a287b);
+        
+    
+            marker_6b8c5e000bcbe3acb19d34fc427c0a0b.bindTooltip(
+                `<div>
+                     Deer Path Inn
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fdb1f637174142f66c5ec5e8e2c0fe32 = L.marker(
+                [0.0, 0.0],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_3b27990aababc0b6fa17011094acec88 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_fdb1f637174142f66c5ec5e8e2c0fe32.setIcon(icon_3b27990aababc0b6fa17011094acec88);
+        
+    
+            marker_fdb1f637174142f66c5ec5e8e2c0fe32.bindTooltip(
+                `<div>
+                     One&Only Nyungwe House
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ad801d111f237499c2e6a9ea12661c3d = L.marker(
+                [-33.4084548, -70.5671489],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_af7757bfb97e037eb93c490152013213 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ad801d111f237499c2e6a9ea12661c3d.setIcon(icon_af7757bfb97e037eb93c490152013213);
+        
+    
+            marker_ad801d111f237499c2e6a9ea12661c3d.bindTooltip(
+                `<div>
+                     W Santiago
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2fb75bb9ee760b06c7abf06ad4c1bdc8 = L.marker(
+                [1.357107, 103.8194992],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_23f9449d8612f1384a8eaaa1c6d70d85 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2fb75bb9ee760b06c7abf06ad4c1bdc8.setIcon(icon_23f9449d8612f1384a8eaaa1c6d70d85);
+        
+    
+            marker_2fb75bb9ee760b06c7abf06ad4c1bdc8.bindTooltip(
+                `<div>
+                     Shangri-La Singapore
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7dd00e77a3d3f48cdc3f6e4983c7982b = L.marker(
+                [34.0696501, -118.3963062],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_353fde153b0274a54b5b85607c7201be = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7dd00e77a3d3f48cdc3f6e4983c7982b.setIcon(icon_353fde153b0274a54b5b85607c7201be);
+        
+    
+            marker_7dd00e77a3d3f48cdc3f6e4983c7982b.bindTooltip(
+                `<div>
+                     L'Ermitage Beverly Hills
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6a7bbaebdf4eea4e0807a7305ab57b87 = L.marker(
+                [-33.928992, 18.417396],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_08e822cd15c4f2f702bf1e86a0abf743 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6a7bbaebdf4eea4e0807a7305ab57b87.setIcon(icon_08e822cd15c4f2f702bf1e86a0abf743);
+        
+    
+            marker_6a7bbaebdf4eea4e0807a7305ab57b87.bindTooltip(
+                `<div>
+                     Silo Hotel
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cfb89a546a9930969f68b53ca1015f2f = L.marker(
+                [43.0610689, 11.4900203],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_cf9bf0fe12eb438fd57fde54251e0f48 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_cfb89a546a9930969f68b53ca1015f2f.setIcon(icon_cf9bf0fe12eb438fd57fde54251e0f48);
+        
+    
+            marker_cfb89a546a9930969f68b53ca1015f2f.bindTooltip(
+                `<div>
+                     Rosewood Castiglion del Bosco
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bb9dcfc334f78fb7c294c06026dee403 = L.marker(
+                [36.399662250000006, 25.476708914676557],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_611d76b71dad83c68c9772af58159e02 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_bb9dcfc334f78fb7c294c06026dee403.setIcon(icon_611d76b71dad83c68c9772af58159e02);
+        
+    
+            marker_bb9dcfc334f78fb7c294c06026dee403.bindTooltip(
+                `<div>
+                     Grace Hotel
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d538a9a573956bcfe09b18f172a374a5 = L.marker(
+                [4.009165299999999, 73.40331027632806],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_d3b3ca6bac859689fe130583f593bcd9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d538a9a573956bcfe09b18f172a374a5.setIcon(icon_d3b3ca6bac859689fe130583f593bcd9);
+        
+    
+            marker_d538a9a573956bcfe09b18f172a374a5.bindTooltip(
+                `<div>
+                     Waldorf Astoria Maldives Ithaafushi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_52611c3c9ec2a89f6bb2c09cb6e8467e = L.marker(
+                [43.58437, -71.207886],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_ec54bf1bad4794249dc7dc1906c8ed37 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_52611c3c9ec2a89f6bb2c09cb6e8467e.setIcon(icon_ec54bf1bad4794249dc7dc1906c8ed37);
+        
+    
+            marker_52611c3c9ec2a89f6bb2c09cb6e8467e.bindTooltip(
+                `<div>
+                     Pickering House Inn
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a11aaf6e05e9ecca83994e27e17bb448 = L.marker(
+                [4.437813800000001, 73.53966432958072],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_5a7a4e57aefe0f2c982fb1fa0df378d7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a11aaf6e05e9ecca83994e27e17bb448.setIcon(icon_5a7a4e57aefe0f2c982fb1fa0df378d7);
+        
+    
+            marker_a11aaf6e05e9ecca83994e27e17bb448.bindTooltip(
+                `<div>
+                     One&Only Reethi Rah
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_085b5132d6ef0812c22d37c918ba8cc3 = L.marker(
+                [31.6258257, -7.9891608],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_f135ffb013bc98090e6feac468fc9668 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_085b5132d6ef0812c22d37c918ba8cc3.setIcon(icon_f135ffb013bc98090e6feac468fc9668);
+        
+    
+            marker_085b5132d6ef0812c22d37c918ba8cc3.bindTooltip(
+                `<div>
+                     Royal Mansour Marrakech
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_103c5dfd76f6f567b7ee86e406f4b167 = L.marker(
+                [-8.3304977, 115.0906401],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_fca9eb4ca4472fd2ef6f6e3a3df5c9a5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_103c5dfd76f6f567b7ee86e406f4b167.setIcon(icon_fca9eb4ca4472fd2ef6f6e3a3df5c9a5);
+        
+    
+            marker_103c5dfd76f6f567b7ee86e406f4b167.bindTooltip(
+                `<div>
+                     Capella Ubud
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8597027b68d1cb8970d779ab398af6ee = L.marker(
+                [40.7127281, -74.0060152],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_4d7bdc163589107757079fce31be2fde = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8597027b68d1cb8970d779ab398af6ee.setIcon(icon_4d7bdc163589107757079fce31be2fde);
+        
+    
+            marker_8597027b68d1cb8970d779ab398af6ee.bindTooltip(
+                `<div>
+                     The Lowell
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_675d96fd6b53b4338f8aefd7c8032b19 = L.marker(
+                [48.8588897, 2.3200410217200766],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_b36cd0cbcf3a0ffbefbdee7bfa18a2b2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_675d96fd6b53b4338f8aefd7c8032b19.setIcon(icon_b36cd0cbcf3a0ffbefbdee7bfa18a2b2);
+        
+    
+            marker_675d96fd6b53b4338f8aefd7c8032b19.bindTooltip(
+                `<div>
+                     Hôtel Madame Rêve
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5f57c73b3bedd0a17ad32460ca2d897c = L.marker(
+                [40.4167047, -3.7035825],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_1516c6d77a81802d6d793e557e593580 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5f57c73b3bedd0a17ad32460ca2d897c.setIcon(icon_1516c6d77a81802d6d793e557e593580);
+        
+    
+            marker_5f57c73b3bedd0a17ad32460ca2d897c.bindTooltip(
+                `<div>
+                     Rosewood Villa Magna
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5a0160c464c2af24ed00242b1883864a = L.marker(
+                [28.6138954, 77.2090057],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_1b3fd8a5e619e4d9433cf317a1e63352 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5a0160c464c2af24ed00242b1883864a.setIcon(icon_1b3fd8a5e619e4d9433cf317a1e63352);
+        
+    
+            marker_5a0160c464c2af24ed00242b1883864a.bindTooltip(
+                `<div>
+                     The Oberoi New Delhi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6cf60cac5340c983a53a86efc53e6df0 = L.marker(
+                [24.578721, 73.6862571],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_158882ba2874381218073d19473c36fd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6cf60cac5340c983a53a86efc53e6df0.setIcon(icon_158882ba2874381218073d19473c36fd);
+        
+    
+            marker_6cf60cac5340c983a53a86efc53e6df0.bindTooltip(
+                `<div>
+                     The Oberoi Udaivilas
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2048b1166de7a26d424232fac9348421 = L.marker(
+                [-8.3304977, 115.0906401],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_6942b7b1929978781af690fb6518b5a3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2048b1166de7a26d424232fac9348421.setIcon(icon_6942b7b1929978781af690fb6518b5a3);
+        
+    
+            marker_2048b1166de7a26d424232fac9348421.bindTooltip(
+                `<div>
+                     Mandapa, a Ritz-Carlton Reserve
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6afd2a90522745d0305ff8ebf4878070 = L.marker(
+                [-1.4741392, 29.568173968338307],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_a2fe5effdbf520b30680806646a58fda = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6afd2a90522745d0305ff8ebf4878070.setIcon(icon_a2fe5effdbf520b30680806646a58fda);
+        
+    
+            marker_6afd2a90522745d0305ff8ebf4878070.bindTooltip(
+                `<div>
+                     Wilderness Safaris Bisate Lodge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_84596bc9aabc34ea5b89f36a38403938 = L.marker(
+                [43.7698712, 11.2555757],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_eaf3e69d50257b764605393c3943ccdc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_84596bc9aabc34ea5b89f36a38403938.setIcon(icon_eaf3e69d50257b764605393c3943ccdc);
+        
+    
+            marker_84596bc9aabc34ea5b89f36a38403938.bindTooltip(
+                `<div>
+                     Portrait Firenze
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_53b536837244389a6a1d6102378905bb = L.marker(
+                [41.0091982, 28.9662187],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_1157c12e84ed50018d852169c432795e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_53b536837244389a6a1d6102378905bb.setIcon(icon_1157c12e84ed50018d852169c432795e);
+        
+    
+            marker_53b536837244389a6a1d6102378905bb.bindTooltip(
+                `<div>
+                     Raffles Istanbul
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9eb42f266a8f644a888df293a3ee9682 = L.marker(
+                [31.6258257, -7.9891608],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_2ff10249b3204a689182054db1e80f6b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9eb42f266a8f644a888df293a3ee9682.setIcon(icon_2ff10249b3204a689182054db1e80f6b);
+        
+    
+            marker_9eb42f266a8f644a888df293a3ee9682.bindTooltip(
+                `<div>
+                     The Oberoi Marrakech
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ba1bb95737c027dfba4a743262e68fcd = L.marker(
+                [21.0294498, 105.8544441],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_169e1b4df13079475602d5284aabba81 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ba1bb95737c027dfba4a743262e68fcd.setIcon(icon_169e1b4df13079475602d5284aabba81);
+        
+    
+            marker_ba1bb95737c027dfba4a743262e68fcd.bindTooltip(
+                `<div>
+                     Capella Hanoi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e46f56b5750c2814258c0ef109be7c01 = L.marker(
+                [26.6279798, -80.4494174],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_eb9c7e836f47a372ded172a634d4f1f7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e46f56b5750c2814258c0ef109be7c01.setIcon(icon_eb9c7e836f47a372ded172a634d4f1f7);
+        
+    
+            marker_e46f56b5750c2814258c0ef109be7c01.bindTooltip(
+                `<div>
+                     White Elephant Palm Beach
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7adc118bf465b6f791113b3c423003e9 = L.marker(
+                [32.7876012, -79.9402728],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_647893372516cc174b97c142b882a353 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7adc118bf465b6f791113b3c423003e9.setIcon(icon_647893372516cc174b97c142b882a353);
+        
+    
+            marker_7adc118bf465b6f791113b3c423003e9.bindTooltip(
+                `<div>
+                     The Loutrel
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a2d5cce44e617b3beea1ecd7cdf1fee7 = L.marker(
+                [-13.5170887, -71.9785356],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_12f543d9a944ca5641325b3063796853 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a2d5cce44e617b3beea1ecd7cdf1fee7.setIcon(icon_12f543d9a944ca5641325b3063796853);
+        
+    
+            marker_a2d5cce44e617b3beea1ecd7cdf1fee7.bindTooltip(
+                `<div>
+                     Monasterio
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_45bdcd060273dbf62163314f30fff0f3 = L.marker(
+                [40.0271075, 23.434252170765312],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_d584c558a010d875667b141fab5c722b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_45bdcd060273dbf62163314f30fff0f3.setIcon(icon_d584c558a010d875667b141fab5c722b);
+        
+    
+            marker_45bdcd060273dbf62163314f30fff0f3.bindTooltip(
+                `<div>
+                     Sani Asterias
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_634c12d75f2881191b32d802c1a52150 = L.marker(
+                [51.5073219, -0.1276474],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_a9ff98ba30e43e2a10fdd9cbe8b9ca91 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_634c12d75f2881191b32d802c1a52150.setIcon(icon_a9ff98ba30e43e2a10fdd9cbe8b9ca91);
+        
+    
+            marker_634c12d75f2881191b32d802c1a52150.bindTooltip(
+                `<div>
+                     Shangri-La the Shard
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_51299dd2ae61694b7c50474fb3550299 = L.marker(
+                [43.755877, 1.4679519],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_69591a577c4ba5fb8dd7b640238bd449 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_51299dd2ae61694b7c50474fb3550299.setIcon(icon_69591a577c4ba5fb8dd7b640238bd449);
+        
+    
+            marker_51299dd2ae61694b7c50474fb3550299.bindTooltip(
+                `<div>
+                     Coquillade Provence Resort & Spa
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7bd98ccde4b90bdcf491192bb7ab59b7 = L.marker(
+                [28.6138954, 77.2090057],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_54cd1391a73e2f8128a8a4da341a26d0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7bd98ccde4b90bdcf491192bb7ab59b7.setIcon(icon_54cd1391a73e2f8128a8a4da341a26d0);
+        
+    
+            marker_7bd98ccde4b90bdcf491192bb7ab59b7.bindTooltip(
+                `<div>
+                     Taj Palace
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a7d9f5cb1df31c7194d31bcb398d6bc1 = L.marker(
+                [41.8755616, -87.6244212],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_9e12286115ed824b4206c85976b88d7a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a7d9f5cb1df31c7194d31bcb398d6bc1.setIcon(icon_9e12286115ed824b4206c85976b88d7a);
+        
+    
+            marker_a7d9f5cb1df31c7194d31bcb398d6bc1.bindTooltip(
+                `<div>
+                     Pendry Chicago
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c6d074982645bf24c1d920854096c094 = L.marker(
+                [10.4716839, -84.644436],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_8149923c5fdf0deabca9c8298d17cdcb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c6d074982645bf24c1d920854096c094.setIcon(icon_8149923c5fdf0deabca9c8298d17cdcb);
+        
+    
+            marker_c6d074982645bf24c1d920854096c094.bindTooltip(
+                `<div>
+                     Nayara Tented Camp
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bb78fc70bc8e08aa1455cea96fb69eb3 = L.marker(
+                [10.291151450000001, -84.81364393886889],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_595bfbc8c91d37918c8d787ad15b2f12 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_bb78fc70bc8e08aa1455cea96fb69eb3.setIcon(icon_595bfbc8c91d37918c8d787ad15b2f12);
+        
+    
+            marker_bb78fc70bc8e08aa1455cea96fb69eb3.bindTooltip(
+                `<div>
+                     Hotel Belmar
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_09dc46f758c2b3b8c8ac6c88e9d04fe7 = L.marker(
+                [49.08426, 3.9774],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_f98d5fc3b03389daf16606a87ffa101b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_09dc46f758c2b3b8c8ac6c88e9d04fe7.setIcon(icon_f98d5fc3b03389daf16606a87ffa101b);
+        
+    
+            marker_09dc46f758c2b3b8c8ac6c88e9d04fe7.bindTooltip(
+                `<div>
+                     Royal Champagne Hôtel & Spa
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0d23936d402fb0398c5d0341d75db6eb = L.marker(
+                [41.9988889, -92.1979353],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_75c2da1f6a4267b28382b1d8e5ca4a59 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0d23936d402fb0398c5d0341d75db6eb.setIcon(icon_75c2da1f6a4267b28382b1d8e5ca4a59);
+        
+    
+            marker_0d23936d402fb0398c5d0341d75db6eb.bindTooltip(
+                `<div>
+                     Under Canvas Mount Rushmore
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_23f4e00b8713fec932c2e48ce4b90899 = L.marker(
+                [38.8950368, -77.0365427],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_e393b3e8e521e690fe9587b1596eacad = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_23f4e00b8713fec932c2e48ce4b90899.setIcon(icon_e393b3e8e521e690fe9587b1596eacad);
+        
+    
+            marker_23f4e00b8713fec932c2e48ce4b90899.bindTooltip(
+                `<div>
+                     Riggs Washington D.C.
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_16e338eac7d6e3966b68e7e2188fc491 = L.marker(
+                [22.8938884, -109.9200604],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_b88899e47ef81186ded08f1a0be53476 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_16e338eac7d6e3966b68e7e2188fc491.setIcon(icon_b88899e47ef81186ded08f1a0be53476);
+        
+    
+            marker_16e338eac7d6e3966b68e7e2188fc491.bindTooltip(
+                `<div>
+                     Waldorf Astoria Los Cabos Pedregal
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b0ac64215aa102c4f70781b394f739b2 = L.marker(
+                [26.031249850000002, 76.4906652236282],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_15ddf031bbe04ddc4e87b81188d9157d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b0ac64215aa102c4f70781b394f739b2.setIcon(icon_15ddf031bbe04ddc4e87b81188d9157d);
+        
+    
+            marker_b0ac64215aa102c4f70781b394f739b2.bindTooltip(
+                `<div>
+                     The Oberoi Vanyavilas Wildlife Resort
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ca71b6c076ae023091d0787cf8136320 = L.marker(
+                [36.399662250000006, 25.476708914676557],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_6898df8defe6a5e4bf2d153bc3e3b09f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ca71b6c076ae023091d0787cf8136320.setIcon(icon_6898df8defe6a5e4bf2d153bc3e3b09f);
+        
+    
+            marker_ca71b6c076ae023091d0787cf8136320.bindTooltip(
+                `<div>
+                     Canaves Oia Epitome 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_031f7d7fa0b6bcab84359c889fcae94e = L.marker(
+                [12.567301, 99.9547134],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_2c7dd29a51d4a265185e162490ebee4b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_031f7d7fa0b6bcab84359c889fcae94e.setIcon(icon_2c7dd29a51d4a265185e162490ebee4b);
+        
+    
+            marker_031f7d7fa0b6bcab84359c889fcae94e.bindTooltip(
+                `<div>
+                     The Standard 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6356193dbd8c309809a190228a0dac01 = L.marker(
+                [27.1752554, 78.0098161],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_5b83b1509e3dabbc101b4ebb4fd4f7cb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6356193dbd8c309809a190228a0dac01.setIcon(icon_5b83b1509e3dabbc101b4ebb4fd4f7cb);
+        
+    
+            marker_6356193dbd8c309809a190228a0dac01.bindTooltip(
+                `<div>
+                     The Oberoi Amarvilas
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fe0bb9354ce2c2c40cf37f3cc8510929 = L.marker(
+                [40.63367, 14.6026095],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_28db4a24578c16aeb9f629996604ac1c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_fe0bb9354ce2c2c40cf37f3cc8510929.setIcon(icon_28db4a24578c16aeb9f629996604ac1c);
+        
+    
+            marker_fe0bb9354ce2c2c40cf37f3cc8510929.bindTooltip(
+                `<div>
+                     Hotel Santa Caterina
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0a91d2bb7c04b0fa7e22e82188b2c811 = L.marker(
+                [13.3617562, 103.8590321],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_b42e585485b50c8d786246e3fa277397 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0a91d2bb7c04b0fa7e22e82188b2c811.setIcon(icon_b42e585485b50c8d786246e3fa277397);
+        
+    
+            marker_0a91d2bb7c04b0fa7e22e82188b2c811.bindTooltip(
+                `<div>
+                     Raffles Grand Hotel d'Angkor
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ab9f2f819802d5dd88fb9ea6d19a67e4 = L.marker(
+                [-9.795874, 120.15245652768192],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_8098be021a5dcaddef086c25d224746a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ab9f2f819802d5dd88fb9ea6d19a67e4.setIcon(icon_8098be021a5dcaddef086c25d224746a);
+        
+    
+            marker_ab9f2f819802d5dd88fb9ea6d19a67e4.bindTooltip(
+                `<div>
+                     Nihi Sumba
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_02abef441479457c7c99ab8ca115daca = L.marker(
+                [48.8588897, 2.3200410217200766],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_f18d7733a7f2a7c0e457a262a6d987f0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_02abef441479457c7c99ab8ca115daca.setIcon(icon_f18d7733a7f2a7c0e457a262a6d987f0);
+        
+    
+            marker_02abef441479457c7c99ab8ca115daca.bindTooltip(
+                `<div>
+                     La Réserve Paris
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_64fca03a501d556a9f8cea2bb921a1dc = L.marker(
+                [41.8933203, 12.4829321],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_f8576d13f8ed0f1692f1d7e9f22cdbb1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_64fca03a501d556a9f8cea2bb921a1dc.setIcon(icon_f8576d13f8ed0f1692f1d7e9f22cdbb1);
+        
+    
+            marker_64fca03a501d556a9f8cea2bb921a1dc.bindTooltip(
+                `<div>
+                     Hotel de la Ville
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fa1b5f74c99c7b1fe5ac77867ccb3989 = L.marker(
+                [40.6286581, 14.4854955],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_12b4392a06e140104bf3a62d2bd99916 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_fa1b5f74c99c7b1fe5ac77867ccb3989.setIcon(icon_12b4392a06e140104bf3a62d2bd99916);
+        
+    
+            marker_fa1b5f74c99c7b1fe5ac77867ccb3989.bindTooltip(
+                `<div>
+                     Il San Pietro di Positano
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4483bbb8fc41abd9ff967a3fabb44e46 = L.marker(
+                [8.1144562, 98.62389977996429],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_7850f58362d18aced60eac0a938151ef = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4483bbb8fc41abd9ff967a3fabb44e46.setIcon(icon_7850f58362d18aced60eac0a938151ef);
+        
+    
+            marker_4483bbb8fc41abd9ff967a3fabb44e46.bindTooltip(
+                `<div>
+                     Six Senses Yao Noi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_26305d0ed4c897588c3551e04c1101f5 = L.marker(
+                [36.7213028, -4.4216366],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_05a5805825a719dd67b9cfa5e84e8eb1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_26305d0ed4c897588c3551e04c1101f5.setIcon(icon_05a5805825a719dd67b9cfa5e84e8eb1);
+        
+    
+            marker_26305d0ed4c897588c3551e04c1101f5.bindTooltip(
+                `<div>
+                     Finca Cortesin Hotel Golf & Spa
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d2d6bc233658890f757a9bdb3d70391c = L.marker(
+                [15.575915, -61.455588],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_73b373e297a4652358fc5b8d3b0d462a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d2d6bc233658890f757a9bdb3d70391c.setIcon(icon_73b373e297a4652358fc5b8d3b0d462a);
+        
+    
+            marker_d2d6bc233658890f757a9bdb3d70391c.bindTooltip(
+                `<div>
+                     Secret Bay
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_69d55ffbebc4e3488aed606702a77a06 = L.marker(
+                [-33.928992, 18.417396],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_0b7137bca1f2d3baac9006f1fd021cba = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_69d55ffbebc4e3488aed606702a77a06.setIcon(icon_0b7137bca1f2d3baac9006f1fd021cba);
+        
+    
+            marker_69d55ffbebc4e3488aed606702a77a06.bindTooltip(
+                `<div>
+                     Cape Grace
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b536b49959c5be00922b504372e3e51d = L.marker(
+                [24.578721, 73.6862571],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_f5dbf79649f383998426e4322844553f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b536b49959c5be00922b504372e3e51d.setIcon(icon_f5dbf79649f383998426e4322844553f);
+        
+    
+            marker_b536b49959c5be00922b504372e3e51d.bindTooltip(
+                `<div>
+                     Taj Lake Palace
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_014b043617e53c145dd5cbfc68c5613b = L.marker(
+                [17.360589, 78.4740613],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_fca9dedf3622538817179e2ab20e66ad = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_014b043617e53c145dd5cbfc68c5613b.setIcon(icon_fca9dedf3622538817179e2ab20e66ad);
+        
+    
+            marker_014b043617e53c145dd5cbfc68c5613b.bindTooltip(
+                `<div>
+                     Taj Falaknuma Palace
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f4e2fa83408fde659a643439b66d331e = L.marker(
+                [-8.3304977, 115.0906401],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_1703149f6a155dff357e0149ab095877 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f4e2fa83408fde659a643439b66d331e.setIcon(icon_1703149f6a155dff357e0149ab095877);
+        
+    
+            marker_f4e2fa83408fde659a643439b66d331e.bindTooltip(
+                `<div>
+                     Alila Villas Uluwatu
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bb7acd4a2f0dab7d1da714550cdd4212 = L.marker(
+                [45.275611, -71.972122],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_deaaec721850973c76a43144947bee92 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_bb7acd4a2f0dab7d1da714550cdd4212.setIcon(icon_deaaec721850973c76a43144947bee92);
+        
+    
+            marker_bb7acd4a2f0dab7d1da714550cdd4212.bindTooltip(
+                `<div>
+                     Manoir Hovey
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2f4539f23bee1c3ad865c313a05eb818 = L.marker(
+                [8.7003427, 106.60678547974496],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_065b8dd7a0a18cc733c2aa4b83c5a266 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2f4539f23bee1c3ad865c313a05eb818.setIcon(icon_065b8dd7a0a18cc733c2aa4b83c5a266);
+        
+    
+            marker_2f4539f23bee1c3ad865c313a05eb818.bindTooltip(
+                `<div>
+                     Six Senses Con Dao
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a386e943373033cec2af1fb78cc94193 = L.marker(
+                [-34.787093049999996, -68.43818677312292],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_eefc2599f4c95eb137304c60d85c27f0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a386e943373033cec2af1fb78cc94193.setIcon(icon_eefc2599f4c95eb137304c60d85c27f0);
+        
+    
+            marker_a386e943373033cec2af1fb78cc94193.bindTooltip(
+                `<div>
+                     Cavas Wine Lodge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2ea7ae5240cb5f1a567ffe4691ba903b = L.marker(
+                [45.9835245, 9.191490924303547],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_599fb4800ae4eb439dda1de5aac240b7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2ea7ae5240cb5f1a567ffe4691ba903b.setIcon(icon_599fb4800ae4eb439dda1de5aac240b7);
+        
+    
+            marker_2ea7ae5240cb5f1a567ffe4691ba903b.bindTooltip(
+                `<div>
+                     Grand Hotel Tremezzo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d5d37eecd7573fa7048aa38ed2d3e0b8 = L.marker(
+                [10.62017945, -84.42581794981697],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_173a33cd92954675478f1dd049b1adf0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d5d37eecd7573fa7048aa38ed2d3e0b8.setIcon(icon_173a33cd92954675478f1dd049b1adf0);
+        
+    
+            marker_d5d37eecd7573fa7048aa38ed2d3e0b8.bindTooltip(
+                `<div>
+                     Nayara Springs
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7ab6c8b5c040fa1ff97208be07b2aa5c = L.marker(
+                [31.2182863, -81.3612077],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_d8ee6ece349d014d32e9acedf2084848 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7ab6c8b5c040fa1ff97208be07b2aa5c.setIcon(icon_d8ee6ece349d014d32e9acedf2084848);
+        
+    
+            marker_7ab6c8b5c040fa1ff97208be07b2aa5c.bindTooltip(
+                `<div>
+                     Lodge on Little St. Simons Island
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_716ebb2513546155d7cd0f9246405177 = L.marker(
+                [11.4386984, -85.9392133],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_fca8ffbdd710264c69de96989a2afa79 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_716ebb2513546155d7cd0f9246405177.setIcon(icon_fca8ffbdd710264c69de96989a2afa79);
+        
+    
+            marker_716ebb2513546155d7cd0f9246405177.bindTooltip(
+                `<div>
+                     Rancho Santana
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_609cf32c8a90cbcd3bc9229371ccef01 = L.marker(
+                [7.9366015, 98.3529292],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_c84daf5822f089f4e5fc91e42262802c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_609cf32c8a90cbcd3bc9229371ccef01.setIcon(icon_c84daf5822f089f4e5fc91e42262802c);
+        
+    
+            marker_609cf32c8a90cbcd3bc9229371ccef01.bindTooltip(
+                `<div>
+                     Amanpuri
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fec86540e5a7c7bc2d634ac56b0f7bf5 = L.marker(
+                [31.6258257, -7.9891608],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_079e3c2182ca58df4935601e3304b86e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_fec86540e5a7c7bc2d634ac56b0f7bf5.setIcon(icon_079e3c2182ca58df4935601e3304b86e);
+        
+    
+            marker_fec86540e5a7c7bc2d634ac56b0f7bf5.bindTooltip(
+                `<div>
+                     Mandarin Oriental Marrakech
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_50d67f6b45916a550523bc89563730b0 = L.marker(
+                [-16.7802184, 179.3328955],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_89ece0a55473c75bf70b2d98679e15a3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_50d67f6b45916a550523bc89563730b0.setIcon(icon_89ece0a55473c75bf70b2d98679e15a3);
+        
+    
+            marker_50d67f6b45916a550523bc89563730b0.bindTooltip(
+                `<div>
+                     Namale Resort & Spa
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e68b0f8fe3043f9fe1f29a8ae2c0db2c = L.marker(
+                [-3.49019715, 35.56828793576915],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_8379803e0f3d827a4cec4e8b2790843a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e68b0f8fe3043f9fe1f29a8ae2c0db2c.setIcon(icon_8379803e0f3d827a4cec4e8b2790843a);
+        
+    
+            marker_e68b0f8fe3043f9fe1f29a8ae2c0db2c.bindTooltip(
+                `<div>
+                     Gibb's Farm
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_56872973b7d263031be9b398a43bd3b7 = L.marker(
+                [13.90904385, -60.97792414113452],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_98b4fb904205aebc5d569f5b7d144702 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_56872973b7d263031be9b398a43bd3b7.setIcon(icon_98b4fb904205aebc5d569f5b7d144702);
+        
+    
+            marker_56872973b7d263031be9b398a43bd3b7.bindTooltip(
+                `<div>
+                     Jade Mountain
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_602c70b2ae9bce477c5e1abdb10d4c79 = L.marker(
+                [40.834432, 17.358399],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_4a3dec487a04a49252093436ad3b21e3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_602c70b2ae9bce477c5e1abdb10d4c79.setIcon(icon_4a3dec487a04a49252093436ad3b21e3);
+        
+    
+            marker_602c70b2ae9bce477c5e1abdb10d4c79.bindTooltip(
+                `<div>
+                     Borgo Egnazia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_196bd0bb30848ee91ab01b5602818db1 = L.marker(
+                [35.021041, 135.7556075],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_190a3f6af0447b25b173c73844dc35b2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_196bd0bb30848ee91ab01b5602818db1.setIcon(icon_190a3f6af0447b25b173c73844dc35b2);
+        
+    
+            marker_196bd0bb30848ee91ab01b5602818db1.bindTooltip(
+                `<div>
+                     Four Seasons Hotel Kyoto
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e2dc0c0b9ee9b3f2988950510396bc67 = L.marker(
+                [34.4221319, -119.702667],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_35281bece085e20e163b73fde99581e6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e2dc0c0b9ee9b3f2988950510396bc67.setIcon(icon_35281bece085e20e163b73fde99581e6);
+        
+    
+            marker_e2dc0c0b9ee9b3f2988950510396bc67.bindTooltip(
+                `<div>
+                     San Ysidro Ranch
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b7e5d7417c5ca63a286b4cf08ab3f510 = L.marker(
+                [51.5073219, -0.1276474],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_8af8bb2f3a8d964a1e22a0afee8a113a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b7e5d7417c5ca63a286b4cf08ab3f510.setIcon(icon_8af8bb2f3a8d964a1e22a0afee8a113a);
+        
+    
+            marker_b7e5d7417c5ca63a286b4cf08ab3f510.bindTooltip(
+                `<div>
+                     The Goring
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bc38cdad7628761c78ccf93cc9d629ed = L.marker(
+                [26.9154576, 75.8189817],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_d5ac396a9eaea9b3b7d6b6ce0fc7f0f9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_bc38cdad7628761c78ccf93cc9d629ed.setIcon(icon_d5ac396a9eaea9b3b7d6b6ce0fc7f0f9);
+        
+    
+            marker_bc38cdad7628761c78ccf93cc9d629ed.bindTooltip(
+                `<div>
+                     The Oberoi Rajvilas
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c164a7a12801a3451b425598ba43adaa = L.marker(
+                [12.5888864, -61.3995276],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_45bab9cf24e687c126aa643501ed0f0d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c164a7a12801a3451b425598ba43adaa.setIcon(icon_45bab9cf24e687c126aa643501ed0f0d);
+        
+    
+            marker_c164a7a12801a3451b425598ba43adaa.bindTooltip(
+                `<div>
+                     Palm Island Resort
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c3fb846f370b88dfa1663fb31df65ede = L.marker(
+                [43.7698712, 11.2555757],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_bfb240b9f62b67119b8d7e9aaf3c7d98 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c3fb846f370b88dfa1663fb31df65ede.setIcon(icon_bfb240b9f62b67119b8d7e9aaf3c7d98);
+        
+    
+            marker_c3fb846f370b88dfa1663fb31df65ede.bindTooltip(
+                `<div>
+                     Hotel Savoy
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3ca814a0b74bb1e69c3beb40a25799d5 = L.marker(
+                [26.9154576, 75.8189817],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_2d3a21a7733d5f7a6773eefd5c1d1b16 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3ca814a0b74bb1e69c3beb40a25799d5.setIcon(icon_2d3a21a7733d5f7a6773eefd5c1d1b16);
+        
+    
+            marker_3ca814a0b74bb1e69c3beb40a25799d5.bindTooltip(
+                `<div>
+                     Rambagh Palace
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5b1c6a784eb43fd9ce63a63a6d4e7a48 = L.marker(
+                [17.1184569, -61.8448509],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_91f964db12fa91937c8800b9f413e5c5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5b1c6a784eb43fd9ce63a63a6d4e7a48.setIcon(icon_91f964db12fa91937c8800b9f413e5c5);
+        
+    
+            marker_5b1c6a784eb43fd9ce63a63a6d4e7a48.bindTooltip(
+                `<div>
+                     Curtain Bluff
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c7ebe54492fdb004fe21be06b0b0f1b7 = L.marker(
+                [38.8051095, -77.0470229],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_f7a32bf91bffcdc8e3083c756a515510 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c7ebe54492fdb004fe21be06b0b0f1b7.setIcon(icon_f7a32bf91bffcdc8e3083c756a515510);
+        
+    
+            marker_c7ebe54492fdb004fe21be06b0b0f1b7.bindTooltip(
+                `<div>
+                     Morrison House Old Town Alexandria, Autograph Collection
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_762975cb7d43919cdb43badfeeb3480d = L.marker(
+                [39.1014537, -84.5124602],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_41ce7d688572f4ed7955bc68aed9a674 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_762975cb7d43919cdb43badfeeb3480d.setIcon(icon_41ce7d688572f4ed7955bc68aed9a674);
+        
+    
+            marker_762975cb7d43919cdb43badfeeb3480d.bindTooltip(
+                `<div>
+                     The Lytle Park Hotel, Autograph Collection
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2dda56a69cda6ad85d588faa75575a78 = L.marker(
+                [39.19056, -98.041991],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_add40fa1297b3b8f1c6876babfb2064f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2dda56a69cda6ad85d588faa75575a78.setIcon(icon_add40fa1297b3b8f1c6876babfb2064f);
+        
+    
+            marker_2dda56a69cda6ad85d588faa75575a78.bindTooltip(
+                `<div>
+                     Twin Farms
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6d4ba89bdb47aa491ef7389d443f3fe8 = L.marker(
+                [42.2586461, -87.8407055],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_c906f62453f352578b1bb0a5d681f6c4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6d4ba89bdb47aa491ef7389d443f3fe8.setIcon(icon_c906f62453f352578b1bb0a5d681f6c4);
+        
+    
+            marker_6d4ba89bdb47aa491ef7389d443f3fe8.bindTooltip(
+                `<div>
+                     Deer Path Inn
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9aefebcf85272f63c948c24bf1cafc37 = L.marker(
+                [0.0, 0.0],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_9fca58ffc55a7dfff8134921461434d8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9aefebcf85272f63c948c24bf1cafc37.setIcon(icon_9fca58ffc55a7dfff8134921461434d8);
+        
+    
+            marker_9aefebcf85272f63c948c24bf1cafc37.bindTooltip(
+                `<div>
+                     One&Only Nyungwe House
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_047162f2f458f32291acfcfb18327a02 = L.marker(
+                [-33.4084548, -70.5671489],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_fd9ac2397cbe41af58b94d5283e80c98 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_047162f2f458f32291acfcfb18327a02.setIcon(icon_fd9ac2397cbe41af58b94d5283e80c98);
+        
+    
+            marker_047162f2f458f32291acfcfb18327a02.bindTooltip(
+                `<div>
+                     W Santiago
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1d0767765cef302a89c3f71e1c4cb15c = L.marker(
+                [1.357107, 103.8194992],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_b184f78e3bda37963f80f07bd86d8b0f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1d0767765cef302a89c3f71e1c4cb15c.setIcon(icon_b184f78e3bda37963f80f07bd86d8b0f);
+        
+    
+            marker_1d0767765cef302a89c3f71e1c4cb15c.bindTooltip(
+                `<div>
+                     Shangri-La Singapore
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9abd8c8296fc02ddc13e1ea445720215 = L.marker(
+                [34.0696501, -118.3963062],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_6172a63ccb9173626251c7d4f47ecf71 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9abd8c8296fc02ddc13e1ea445720215.setIcon(icon_6172a63ccb9173626251c7d4f47ecf71);
+        
+    
+            marker_9abd8c8296fc02ddc13e1ea445720215.bindTooltip(
+                `<div>
+                     L'Ermitage Beverly Hills
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8f44aa20fcd0997db6d4d20719347744 = L.marker(
+                [-33.928992, 18.417396],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_a11ac7d6b2f22864cb1d762f8992d0e6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8f44aa20fcd0997db6d4d20719347744.setIcon(icon_a11ac7d6b2f22864cb1d762f8992d0e6);
+        
+    
+            marker_8f44aa20fcd0997db6d4d20719347744.bindTooltip(
+                `<div>
+                     Silo Hotel
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e2149adcc8e16d21fd3a3664487fedc5 = L.marker(
+                [43.0610689, 11.4900203],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_8b1e21276095716269e8e3b58187911b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e2149adcc8e16d21fd3a3664487fedc5.setIcon(icon_8b1e21276095716269e8e3b58187911b);
+        
+    
+            marker_e2149adcc8e16d21fd3a3664487fedc5.bindTooltip(
+                `<div>
+                     Rosewood Castiglion del Bosco
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a15b25eb68187e9d597cafee7af4e00c = L.marker(
+                [36.399662250000006, 25.476708914676557],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_35428ebb6b1c3506115589aa8b36a5cc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a15b25eb68187e9d597cafee7af4e00c.setIcon(icon_35428ebb6b1c3506115589aa8b36a5cc);
+        
+    
+            marker_a15b25eb68187e9d597cafee7af4e00c.bindTooltip(
+                `<div>
+                     Grace Hotel
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_894f48b04765ac1403fef1408ab5c7fb = L.marker(
+                [4.009165299999999, 73.40331027632806],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_72f9a4cb8364adfed6b81647b5920728 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_894f48b04765ac1403fef1408ab5c7fb.setIcon(icon_72f9a4cb8364adfed6b81647b5920728);
+        
+    
+            marker_894f48b04765ac1403fef1408ab5c7fb.bindTooltip(
+                `<div>
+                     Waldorf Astoria Maldives Ithaafushi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2ce0a24c3430d211798bf8e5d847b2c5 = L.marker(
+                [43.58437, -71.207886],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_a96e14565d55db968de277bd22556067 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2ce0a24c3430d211798bf8e5d847b2c5.setIcon(icon_a96e14565d55db968de277bd22556067);
+        
+    
+            marker_2ce0a24c3430d211798bf8e5d847b2c5.bindTooltip(
+                `<div>
+                     Pickering House Inn
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_91b784dddfa9719c664cc363e83b99d0 = L.marker(
+                [4.437813800000001, 73.53966432958072],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_8a6086304363e611a49871cdb2c0c62b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_91b784dddfa9719c664cc363e83b99d0.setIcon(icon_8a6086304363e611a49871cdb2c0c62b);
+        
+    
+            marker_91b784dddfa9719c664cc363e83b99d0.bindTooltip(
+                `<div>
+                     One&Only Reethi Rah
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_12c877b830038adbdcb588bc02c5a087 = L.marker(
+                [31.6258257, -7.9891608],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_c69ea53c507376a60e2076e3bb0f9d60 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_12c877b830038adbdcb588bc02c5a087.setIcon(icon_c69ea53c507376a60e2076e3bb0f9d60);
+        
+    
+            marker_12c877b830038adbdcb588bc02c5a087.bindTooltip(
+                `<div>
+                     Royal Mansour Marrakech
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_15d96723c85281895e7be91bc307e5ae = L.marker(
+                [-8.3304977, 115.0906401],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_f9caced4283d5cdd9629cfe0816e851d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_15d96723c85281895e7be91bc307e5ae.setIcon(icon_f9caced4283d5cdd9629cfe0816e851d);
+        
+    
+            marker_15d96723c85281895e7be91bc307e5ae.bindTooltip(
+                `<div>
+                     Capella Ubud
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_299389ff65a9cba2bab0846d08585fa5 = L.marker(
+                [40.7127281, -74.0060152],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_39d130453d98878b62575b14e221c5d4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_299389ff65a9cba2bab0846d08585fa5.setIcon(icon_39d130453d98878b62575b14e221c5d4);
+        
+    
+            marker_299389ff65a9cba2bab0846d08585fa5.bindTooltip(
+                `<div>
+                     The Lowell
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e94eb03df06ff2ecdc441409acadc3ed = L.marker(
+                [48.8588897, 2.3200410217200766],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_0e9976b0cfaeff8eab6624857409e8f0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e94eb03df06ff2ecdc441409acadc3ed.setIcon(icon_0e9976b0cfaeff8eab6624857409e8f0);
+        
+    
+            marker_e94eb03df06ff2ecdc441409acadc3ed.bindTooltip(
+                `<div>
+                     Hôtel Madame Rêve
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_44c8702994cfe3569862b9f17b128603 = L.marker(
+                [40.4167047, -3.7035825],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_10c68fdabd7eb028d39ee8450b80ebab = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_44c8702994cfe3569862b9f17b128603.setIcon(icon_10c68fdabd7eb028d39ee8450b80ebab);
+        
+    
+            marker_44c8702994cfe3569862b9f17b128603.bindTooltip(
+                `<div>
+                     Rosewood Villa Magna
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_21245ba3369129d7938d451772d4a9f8 = L.marker(
+                [28.6138954, 77.2090057],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_b99d50ebbbd85e699100214482430d2d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_21245ba3369129d7938d451772d4a9f8.setIcon(icon_b99d50ebbbd85e699100214482430d2d);
+        
+    
+            marker_21245ba3369129d7938d451772d4a9f8.bindTooltip(
+                `<div>
+                     The Oberoi New Delhi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_eb7fd3638d257a67c3b6cfbe98cb37fd = L.marker(
+                [24.578721, 73.6862571],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_bdff49f7cbc693003b51e008186a76de = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_eb7fd3638d257a67c3b6cfbe98cb37fd.setIcon(icon_bdff49f7cbc693003b51e008186a76de);
+        
+    
+            marker_eb7fd3638d257a67c3b6cfbe98cb37fd.bindTooltip(
+                `<div>
+                     The Oberoi Udaivilas
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e0678bcb41a35e46800389fe8c0b9987 = L.marker(
+                [-8.3304977, 115.0906401],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_dbb4a83df63c4e983775cb8d76a765af = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e0678bcb41a35e46800389fe8c0b9987.setIcon(icon_dbb4a83df63c4e983775cb8d76a765af);
+        
+    
+            marker_e0678bcb41a35e46800389fe8c0b9987.bindTooltip(
+                `<div>
+                     Mandapa, a Ritz-Carlton Reserve
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f0f53cb08c93b428f93bce574baee2cd = L.marker(
+                [-1.4741392, 29.568173968338307],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_23320403f32e0735d1b32955cc1615c1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f0f53cb08c93b428f93bce574baee2cd.setIcon(icon_23320403f32e0735d1b32955cc1615c1);
+        
+    
+            marker_f0f53cb08c93b428f93bce574baee2cd.bindTooltip(
+                `<div>
+                     Wilderness Safaris Bisate Lodge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9708dedad73c5f8e123aacd20e3f50de = L.marker(
+                [43.7698712, 11.2555757],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_1bdc083ec4a0b38147833c75a8f1287a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9708dedad73c5f8e123aacd20e3f50de.setIcon(icon_1bdc083ec4a0b38147833c75a8f1287a);
+        
+    
+            marker_9708dedad73c5f8e123aacd20e3f50de.bindTooltip(
+                `<div>
+                     Portrait Firenze
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_655f0204c073788a466993964af5822c = L.marker(
+                [41.0091982, 28.9662187],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_be99676afe519ae5b1b82d20847a3b90 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_655f0204c073788a466993964af5822c.setIcon(icon_be99676afe519ae5b1b82d20847a3b90);
+        
+    
+            marker_655f0204c073788a466993964af5822c.bindTooltip(
+                `<div>
+                     Raffles Istanbul
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b79ee1d558568df07dcba0bf7d4c573c = L.marker(
+                [31.6258257, -7.9891608],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_4b4e51b474b412c2bcc44eafaff5eb85 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b79ee1d558568df07dcba0bf7d4c573c.setIcon(icon_4b4e51b474b412c2bcc44eafaff5eb85);
+        
+    
+            marker_b79ee1d558568df07dcba0bf7d4c573c.bindTooltip(
+                `<div>
+                     The Oberoi Marrakech
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cca76eb2609817d13ad760e12b8758b7 = L.marker(
+                [21.0294498, 105.8544441],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_e4c5a85cbcbf989d5505e031dd4b8727 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_cca76eb2609817d13ad760e12b8758b7.setIcon(icon_e4c5a85cbcbf989d5505e031dd4b8727);
+        
+    
+            marker_cca76eb2609817d13ad760e12b8758b7.bindTooltip(
+                `<div>
+                     Capella Hanoi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7ef54819d2a5b966589c3de3c7d2c239 = L.marker(
+                [26.6279798, -80.4494174],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_5e78b941b8b87e51508ec3457d871ac9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7ef54819d2a5b966589c3de3c7d2c239.setIcon(icon_5e78b941b8b87e51508ec3457d871ac9);
+        
+    
+            marker_7ef54819d2a5b966589c3de3c7d2c239.bindTooltip(
+                `<div>
+                     White Elephant Palm Beach
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f7137ccf076b55bfd7983c0217318651 = L.marker(
+                [32.7876012, -79.9402728],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_79d1b6d271c7e4385f93825598a2a008 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f7137ccf076b55bfd7983c0217318651.setIcon(icon_79d1b6d271c7e4385f93825598a2a008);
+        
+    
+            marker_f7137ccf076b55bfd7983c0217318651.bindTooltip(
+                `<div>
+                     The Loutrel
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a44c88c6d4092521a2c74887bc4e0637 = L.marker(
+                [-13.5170887, -71.9785356],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_1e75e23a691b4f2ccf70a6982d7fbb20 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a44c88c6d4092521a2c74887bc4e0637.setIcon(icon_1e75e23a691b4f2ccf70a6982d7fbb20);
+        
+    
+            marker_a44c88c6d4092521a2c74887bc4e0637.bindTooltip(
+                `<div>
+                     Monasterio
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_88b05602fdaa5061df6475112233f2d6 = L.marker(
+                [40.0271075, 23.434252170765312],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_7d6829f69c1c9fe827d58b77aa4b7fca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_88b05602fdaa5061df6475112233f2d6.setIcon(icon_7d6829f69c1c9fe827d58b77aa4b7fca);
+        
+    
+            marker_88b05602fdaa5061df6475112233f2d6.bindTooltip(
+                `<div>
+                     Sani Asterias
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_76d3688ed446a41d60e6093f06347542 = L.marker(
+                [51.5073219, -0.1276474],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_f234096f43db8ae8995ba64f9e4ad85f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_76d3688ed446a41d60e6093f06347542.setIcon(icon_f234096f43db8ae8995ba64f9e4ad85f);
+        
+    
+            marker_76d3688ed446a41d60e6093f06347542.bindTooltip(
+                `<div>
+                     Shangri-La the Shard
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b3c42676a8108f135c8655fb58ec56be = L.marker(
+                [43.755877, 1.4679519],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_cd6c86890a412753db5900b8d9a8fd4a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b3c42676a8108f135c8655fb58ec56be.setIcon(icon_cd6c86890a412753db5900b8d9a8fd4a);
+        
+    
+            marker_b3c42676a8108f135c8655fb58ec56be.bindTooltip(
+                `<div>
+                     Coquillade Provence Resort & Spa
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b98bf9665d7601c9410b7b6f63085467 = L.marker(
+                [28.6138954, 77.2090057],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_025aedb768fa508966f3e5c0edc09c33 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b98bf9665d7601c9410b7b6f63085467.setIcon(icon_025aedb768fa508966f3e5c0edc09c33);
+        
+    
+            marker_b98bf9665d7601c9410b7b6f63085467.bindTooltip(
+                `<div>
+                     Taj Palace
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ebae041343afabd569aa9d39d93cf781 = L.marker(
+                [41.8755616, -87.6244212],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_d437306911cb2972a996438df4e86ff2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ebae041343afabd569aa9d39d93cf781.setIcon(icon_d437306911cb2972a996438df4e86ff2);
+        
+    
+            marker_ebae041343afabd569aa9d39d93cf781.bindTooltip(
+                `<div>
+                     Pendry Chicago
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_60e2967301d4fde135d4bc9281281c15 = L.marker(
+                [10.4716839, -84.644436],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_0255851f3e8d95ed81470ec845ff58b4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_60e2967301d4fde135d4bc9281281c15.setIcon(icon_0255851f3e8d95ed81470ec845ff58b4);
+        
+    
+            marker_60e2967301d4fde135d4bc9281281c15.bindTooltip(
+                `<div>
+                     Nayara Tented Camp
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6afa9bbb5857a86a9f2a0c8ae0c2acf8 = L.marker(
+                [10.291151450000001, -84.81364393886889],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_81ebbc326e98e93a7dd1fe035e242ea8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6afa9bbb5857a86a9f2a0c8ae0c2acf8.setIcon(icon_81ebbc326e98e93a7dd1fe035e242ea8);
+        
+    
+            marker_6afa9bbb5857a86a9f2a0c8ae0c2acf8.bindTooltip(
+                `<div>
+                     Hotel Belmar
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3a9151f3930167e95a1fd18c1468c7ad = L.marker(
+                [49.08426, 3.9774],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_4bbf4d49651a8076039a1aaa014be869 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3a9151f3930167e95a1fd18c1468c7ad.setIcon(icon_4bbf4d49651a8076039a1aaa014be869);
+        
+    
+            marker_3a9151f3930167e95a1fd18c1468c7ad.bindTooltip(
+                `<div>
+                     Royal Champagne Hôtel & Spa
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f47950d546e1cd5a74d17b6c50ebdaef = L.marker(
+                [41.9988889, -92.1979353],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_df75b76c2652e365e56f9b424c61bc15 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f47950d546e1cd5a74d17b6c50ebdaef.setIcon(icon_df75b76c2652e365e56f9b424c61bc15);
+        
+    
+            marker_f47950d546e1cd5a74d17b6c50ebdaef.bindTooltip(
+                `<div>
+                     Under Canvas Mount Rushmore
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7e8a371a53fda3fb117a0437aa827e36 = L.marker(
+                [38.8950368, -77.0365427],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_7858b9447a9bc38b77c38c9375903141 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7e8a371a53fda3fb117a0437aa827e36.setIcon(icon_7858b9447a9bc38b77c38c9375903141);
+        
+    
+            marker_7e8a371a53fda3fb117a0437aa827e36.bindTooltip(
+                `<div>
+                     Riggs Washington D.C.
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bd3e39f35f35e9a9c3ede31af93b44dd = L.marker(
+                [22.8938884, -109.9200604],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_4a1fe8ffd4f69f8a7aa9925af370c75a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_bd3e39f35f35e9a9c3ede31af93b44dd.setIcon(icon_4a1fe8ffd4f69f8a7aa9925af370c75a);
+        
+    
+            marker_bd3e39f35f35e9a9c3ede31af93b44dd.bindTooltip(
+                `<div>
+                     Waldorf Astoria Los Cabos Pedregal
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f322566b0fc5686492db0158a65f6399 = L.marker(
+                [26.031249850000002, 76.4906652236282],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_5183b9596edf18692dc6043ae67e0f19 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f322566b0fc5686492db0158a65f6399.setIcon(icon_5183b9596edf18692dc6043ae67e0f19);
+        
+    
+            marker_f322566b0fc5686492db0158a65f6399.bindTooltip(
+                `<div>
+                     The Oberoi Vanyavilas Wildlife Resort
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8741e513ff9ade1ee427725b4223ffd4 = L.marker(
+                [36.399662250000006, 25.476708914676557],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_5ca26f751c2c28467f90f584e0b908cc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8741e513ff9ade1ee427725b4223ffd4.setIcon(icon_5ca26f751c2c28467f90f584e0b908cc);
+        
+    
+            marker_8741e513ff9ade1ee427725b4223ffd4.bindTooltip(
+                `<div>
+                     Canaves Oia Epitome 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1f8bb8520a0942d1b7c34059501fdc2f = L.marker(
+                [12.567301, 99.9547134],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_838bb7c64b6fd33a5c984f75db3a1926 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1f8bb8520a0942d1b7c34059501fdc2f.setIcon(icon_838bb7c64b6fd33a5c984f75db3a1926);
+        
+    
+            marker_1f8bb8520a0942d1b7c34059501fdc2f.bindTooltip(
+                `<div>
+                     The Standard 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_03746313f707ca5b50c428cc61efadb2 = L.marker(
+                [27.1752554, 78.0098161],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_69dbc89c7a7682bb53555abd1a2b7792 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_03746313f707ca5b50c428cc61efadb2.setIcon(icon_69dbc89c7a7682bb53555abd1a2b7792);
+        
+    
+            marker_03746313f707ca5b50c428cc61efadb2.bindTooltip(
+                `<div>
+                     The Oberoi Amarvilas
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_31bccf7151c7e5719e6dea2c5663ebb9 = L.marker(
+                [40.63367, 14.6026095],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_e02ce028380e22cef11cb4c5deb6a3cf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_31bccf7151c7e5719e6dea2c5663ebb9.setIcon(icon_e02ce028380e22cef11cb4c5deb6a3cf);
+        
+    
+            marker_31bccf7151c7e5719e6dea2c5663ebb9.bindTooltip(
+                `<div>
+                     Hotel Santa Caterina
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_86dfdbf6a72855296e18ef97294a990c = L.marker(
+                [13.3617562, 103.8590321],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_08aad53b9afa6f46a8462551ae4b591b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_86dfdbf6a72855296e18ef97294a990c.setIcon(icon_08aad53b9afa6f46a8462551ae4b591b);
+        
+    
+            marker_86dfdbf6a72855296e18ef97294a990c.bindTooltip(
+                `<div>
+                     Raffles Grand Hotel d'Angkor
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e8cf1b795cf92cb3af1c1acc2ab039d0 = L.marker(
+                [-9.795874, 120.15245652768192],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_2c4665d76f3b7569f31ab9e45614341b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e8cf1b795cf92cb3af1c1acc2ab039d0.setIcon(icon_2c4665d76f3b7569f31ab9e45614341b);
+        
+    
+            marker_e8cf1b795cf92cb3af1c1acc2ab039d0.bindTooltip(
+                `<div>
+                     Nihi Sumba
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6fe0e921ac6ee3548f08bce5ea11a0f7 = L.marker(
+                [48.8588897, 2.3200410217200766],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_7d251bd7f09948fe237b759de889aa6a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6fe0e921ac6ee3548f08bce5ea11a0f7.setIcon(icon_7d251bd7f09948fe237b759de889aa6a);
+        
+    
+            marker_6fe0e921ac6ee3548f08bce5ea11a0f7.bindTooltip(
+                `<div>
+                     La Réserve Paris
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8e6b3e7dc6835d98b81fbbc4f9b0a09e = L.marker(
+                [41.8933203, 12.4829321],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_b1774d2c38c6a9913930215882a0d9b1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8e6b3e7dc6835d98b81fbbc4f9b0a09e.setIcon(icon_b1774d2c38c6a9913930215882a0d9b1);
+        
+    
+            marker_8e6b3e7dc6835d98b81fbbc4f9b0a09e.bindTooltip(
+                `<div>
+                     Hotel de la Ville
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_04046611a019950fa2b539701b4a5db5 = L.marker(
+                [40.6286581, 14.4854955],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_90e788e5112f675a80570279c9ae9430 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_04046611a019950fa2b539701b4a5db5.setIcon(icon_90e788e5112f675a80570279c9ae9430);
+        
+    
+            marker_04046611a019950fa2b539701b4a5db5.bindTooltip(
+                `<div>
+                     Il San Pietro di Positano
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b774a78f75425f393e7b5aaf9222af99 = L.marker(
+                [8.1144562, 98.62389977996429],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_302fe85edff9b1c284e854ba93bac55d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b774a78f75425f393e7b5aaf9222af99.setIcon(icon_302fe85edff9b1c284e854ba93bac55d);
+        
+    
+            marker_b774a78f75425f393e7b5aaf9222af99.bindTooltip(
+                `<div>
+                     Six Senses Yao Noi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4c29738da88a25ce75a5b59e9ba5e192 = L.marker(
+                [36.7213028, -4.4216366],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_65ce6de1f2b5db000e0d112d1f2897dc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4c29738da88a25ce75a5b59e9ba5e192.setIcon(icon_65ce6de1f2b5db000e0d112d1f2897dc);
+        
+    
+            marker_4c29738da88a25ce75a5b59e9ba5e192.bindTooltip(
+                `<div>
+                     Finca Cortesin Hotel Golf & Spa
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_25d33f98c2088f2145dc0b7829111ecd = L.marker(
+                [15.575915, -61.455588],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_00cd3cc827ec5456061d0212e082a75a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_25d33f98c2088f2145dc0b7829111ecd.setIcon(icon_00cd3cc827ec5456061d0212e082a75a);
+        
+    
+            marker_25d33f98c2088f2145dc0b7829111ecd.bindTooltip(
+                `<div>
+                     Secret Bay
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8b42b9a50abadf8afc9b5de4d8e55ba6 = L.marker(
+                [-33.928992, 18.417396],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_26c148a85a2e2a057e670ff8ca0be97a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8b42b9a50abadf8afc9b5de4d8e55ba6.setIcon(icon_26c148a85a2e2a057e670ff8ca0be97a);
+        
+    
+            marker_8b42b9a50abadf8afc9b5de4d8e55ba6.bindTooltip(
+                `<div>
+                     Cape Grace
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3c234f5eef119694651385b96dad3546 = L.marker(
+                [24.578721, 73.6862571],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_a434657fa1dbea946343d3b0911dd83b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3c234f5eef119694651385b96dad3546.setIcon(icon_a434657fa1dbea946343d3b0911dd83b);
+        
+    
+            marker_3c234f5eef119694651385b96dad3546.bindTooltip(
+                `<div>
+                     Taj Lake Palace
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9a5f31f7824c9d4f69b2f5575fcaf480 = L.marker(
+                [17.360589, 78.4740613],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_2bc3db94f58d315e505ace7b8b6e0985 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9a5f31f7824c9d4f69b2f5575fcaf480.setIcon(icon_2bc3db94f58d315e505ace7b8b6e0985);
+        
+    
+            marker_9a5f31f7824c9d4f69b2f5575fcaf480.bindTooltip(
+                `<div>
+                     Taj Falaknuma Palace
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_df8d9d74d63cc3f281dd04dc3959f777 = L.marker(
+                [-8.3304977, 115.0906401],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_59430c1b830a93cc73b16b898a4a8ccb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_df8d9d74d63cc3f281dd04dc3959f777.setIcon(icon_59430c1b830a93cc73b16b898a4a8ccb);
+        
+    
+            marker_df8d9d74d63cc3f281dd04dc3959f777.bindTooltip(
+                `<div>
+                     Alila Villas Uluwatu
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cc8004d854784a69793fe73c2fc192fa = L.marker(
+                [45.275611, -71.972122],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_49720d31fa805f5d53c4e1267cf5f81e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_cc8004d854784a69793fe73c2fc192fa.setIcon(icon_49720d31fa805f5d53c4e1267cf5f81e);
+        
+    
+            marker_cc8004d854784a69793fe73c2fc192fa.bindTooltip(
+                `<div>
+                     Manoir Hovey
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ee42a19ebd03d5543a5f169107c90c16 = L.marker(
+                [8.7003427, 106.60678547974496],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_c56dc65d5db1721158236dc8b643fc59 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ee42a19ebd03d5543a5f169107c90c16.setIcon(icon_c56dc65d5db1721158236dc8b643fc59);
+        
+    
+            marker_ee42a19ebd03d5543a5f169107c90c16.bindTooltip(
+                `<div>
+                     Six Senses Con Dao
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_310caa3be836d9f9b3520c77c555ead9 = L.marker(
+                [-34.787093049999996, -68.43818677312292],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_ebe630164824ecbcb68c7704986a9233 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_310caa3be836d9f9b3520c77c555ead9.setIcon(icon_ebe630164824ecbcb68c7704986a9233);
+        
+    
+            marker_310caa3be836d9f9b3520c77c555ead9.bindTooltip(
+                `<div>
+                     Cavas Wine Lodge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4bd4a45430ab976dfa0329669e881933 = L.marker(
+                [45.9835245, 9.191490924303547],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_e3ffa1e7cdc166c18a170d706acddfee = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4bd4a45430ab976dfa0329669e881933.setIcon(icon_e3ffa1e7cdc166c18a170d706acddfee);
+        
+    
+            marker_4bd4a45430ab976dfa0329669e881933.bindTooltip(
+                `<div>
+                     Grand Hotel Tremezzo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_500f5005021d8b8ecb9394c2e0c8d2d7 = L.marker(
+                [10.62017945, -84.42581794981697],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_7c57e004ed1bb8b464a65765086385d0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_500f5005021d8b8ecb9394c2e0c8d2d7.setIcon(icon_7c57e004ed1bb8b464a65765086385d0);
+        
+    
+            marker_500f5005021d8b8ecb9394c2e0c8d2d7.bindTooltip(
+                `<div>
+                     Nayara Springs
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bf3a324a13596a022001df40b8dbab7d = L.marker(
+                [31.2182863, -81.3612077],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_25bc3e671eae8b25281dda68873fb8d4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_bf3a324a13596a022001df40b8dbab7d.setIcon(icon_25bc3e671eae8b25281dda68873fb8d4);
+        
+    
+            marker_bf3a324a13596a022001df40b8dbab7d.bindTooltip(
+                `<div>
+                     Lodge on Little St. Simons Island
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d4636e28957bfa68c70dd6936a775018 = L.marker(
+                [11.4386984, -85.9392133],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_5d5bb38ed6a52ab55cd1a9d14c64ecd8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d4636e28957bfa68c70dd6936a775018.setIcon(icon_5d5bb38ed6a52ab55cd1a9d14c64ecd8);
+        
+    
+            marker_d4636e28957bfa68c70dd6936a775018.bindTooltip(
+                `<div>
+                     Rancho Santana
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_15addc3f77b2b8ccf0eb804f470c1b44 = L.marker(
+                [7.9366015, 98.3529292],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_ddcd5ab1ff84570dfdcc17698138fcff = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_15addc3f77b2b8ccf0eb804f470c1b44.setIcon(icon_ddcd5ab1ff84570dfdcc17698138fcff);
+        
+    
+            marker_15addc3f77b2b8ccf0eb804f470c1b44.bindTooltip(
+                `<div>
+                     Amanpuri
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_41b81e3b8d9ef7d0487739257b207c7b = L.marker(
+                [31.6258257, -7.9891608],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_bf7b01001e576d55f3a54bbb771e85c2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_41b81e3b8d9ef7d0487739257b207c7b.setIcon(icon_bf7b01001e576d55f3a54bbb771e85c2);
+        
+    
+            marker_41b81e3b8d9ef7d0487739257b207c7b.bindTooltip(
+                `<div>
+                     Mandarin Oriental Marrakech
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ee83b72c1accc52288bf21f98df7a28a = L.marker(
+                [-16.7802184, 179.3328955],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_127051e6cb4beb5a809b5f4fa4985b33 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ee83b72c1accc52288bf21f98df7a28a.setIcon(icon_127051e6cb4beb5a809b5f4fa4985b33);
+        
+    
+            marker_ee83b72c1accc52288bf21f98df7a28a.bindTooltip(
+                `<div>
+                     Namale Resort & Spa
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2e2bfcfc968171aa0f718f997315a1ac = L.marker(
+                [-3.49019715, 35.56828793576915],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_478cd41474ffb16e25a7ffde8efb8c98 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2e2bfcfc968171aa0f718f997315a1ac.setIcon(icon_478cd41474ffb16e25a7ffde8efb8c98);
+        
+    
+            marker_2e2bfcfc968171aa0f718f997315a1ac.bindTooltip(
+                `<div>
+                     Gibb's Farm
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5ce2ff152987fcafcbb995245c744a24 = L.marker(
+                [13.90904385, -60.97792414113452],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_43342786149ed38ac2964303e4b79624 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5ce2ff152987fcafcbb995245c744a24.setIcon(icon_43342786149ed38ac2964303e4b79624);
+        
+    
+            marker_5ce2ff152987fcafcbb995245c744a24.bindTooltip(
+                `<div>
+                     Jade Mountain
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8e8d6f079af71e140b19989104b91723 = L.marker(
+                [40.834432, 17.358399],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_bd4c2214944bebbed0505c40539c04b3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8e8d6f079af71e140b19989104b91723.setIcon(icon_bd4c2214944bebbed0505c40539c04b3);
+        
+    
+            marker_8e8d6f079af71e140b19989104b91723.bindTooltip(
+                `<div>
+                     Borgo Egnazia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_02bb1f26c7f9eb7b88f070ef142df2c2 = L.marker(
+                [35.021041, 135.7556075],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_5da2375b9ddca12097dc389c4877783c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_02bb1f26c7f9eb7b88f070ef142df2c2.setIcon(icon_5da2375b9ddca12097dc389c4877783c);
+        
+    
+            marker_02bb1f26c7f9eb7b88f070ef142df2c2.bindTooltip(
+                `<div>
+                     Four Seasons Hotel Kyoto
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d417765759dbc5da045e7dc62a662224 = L.marker(
+                [34.4221319, -119.702667],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_d2bfa15ff1d8a375112fd94c30a60fc8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d417765759dbc5da045e7dc62a662224.setIcon(icon_d2bfa15ff1d8a375112fd94c30a60fc8);
+        
+    
+            marker_d417765759dbc5da045e7dc62a662224.bindTooltip(
+                `<div>
+                     San Ysidro Ranch
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a90c63556d0d7553b8bc0b6991904e6c = L.marker(
+                [51.5073219, -0.1276474],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_0cedb7024ae891d4f85a2ff3b558f8a7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a90c63556d0d7553b8bc0b6991904e6c.setIcon(icon_0cedb7024ae891d4f85a2ff3b558f8a7);
+        
+    
+            marker_a90c63556d0d7553b8bc0b6991904e6c.bindTooltip(
+                `<div>
+                     The Goring
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3df07092d6e905ab12e2ccecfb84010e = L.marker(
+                [26.9154576, 75.8189817],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_a5615b04d294ea0d56fceae52c0959bc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3df07092d6e905ab12e2ccecfb84010e.setIcon(icon_a5615b04d294ea0d56fceae52c0959bc);
+        
+    
+            marker_3df07092d6e905ab12e2ccecfb84010e.bindTooltip(
+                `<div>
+                     The Oberoi Rajvilas
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1a858a75425f9e755e31380c1d88ab5c = L.marker(
+                [12.5888864, -61.3995276],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_5528cd756d1a31b59f8c5e025a9e68cd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1a858a75425f9e755e31380c1d88ab5c.setIcon(icon_5528cd756d1a31b59f8c5e025a9e68cd);
+        
+    
+            marker_1a858a75425f9e755e31380c1d88ab5c.bindTooltip(
+                `<div>
+                     Palm Island Resort
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d6413ba48656e279509aa4094a0f6f9c = L.marker(
+                [43.7698712, 11.2555757],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_48f259820236c3fc7be04d3c16a7544a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d6413ba48656e279509aa4094a0f6f9c.setIcon(icon_48f259820236c3fc7be04d3c16a7544a);
+        
+    
+            marker_d6413ba48656e279509aa4094a0f6f9c.bindTooltip(
+                `<div>
+                     Hotel Savoy
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8b7d5d000352a3cece206ed757ddd07e = L.marker(
+                [26.9154576, 75.8189817],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_fa8572e8616d956c30d1b1b36e4a0eee = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8b7d5d000352a3cece206ed757ddd07e.setIcon(icon_fa8572e8616d956c30d1b1b36e4a0eee);
+        
+    
+            marker_8b7d5d000352a3cece206ed757ddd07e.bindTooltip(
+                `<div>
+                     Rambagh Palace
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8401f5e8c520bfac9b645fef9289795e = L.marker(
+                [17.1184569, -61.8448509],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_8ae3e8b1bff4d91ab8653b7dab9c7110 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8401f5e8c520bfac9b645fef9289795e.setIcon(icon_8ae3e8b1bff4d91ab8653b7dab9c7110);
+        
+    
+            marker_8401f5e8c520bfac9b645fef9289795e.bindTooltip(
+                `<div>
+                     Curtain Bluff
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_42abb225e6cdf85dfa07d82dde930214 = L.marker(
+                [38.8051095, -77.0470229],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_4ef32dfcdef272cebb40ec32f3b6eff6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_42abb225e6cdf85dfa07d82dde930214.setIcon(icon_4ef32dfcdef272cebb40ec32f3b6eff6);
+        
+    
+            marker_42abb225e6cdf85dfa07d82dde930214.bindTooltip(
+                `<div>
+                     Morrison House Old Town Alexandria, Autograph Collection
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fdeb33796b46618031e568018e54f232 = L.marker(
+                [39.1014537, -84.5124602],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_aebd87888fda8932d9b4bc844fef2798 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_fdeb33796b46618031e568018e54f232.setIcon(icon_aebd87888fda8932d9b4bc844fef2798);
+        
+    
+            marker_fdeb33796b46618031e568018e54f232.bindTooltip(
+                `<div>
+                     The Lytle Park Hotel, Autograph Collection
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e5bc7fa9a992e144d338f51b6c1f9586 = L.marker(
+                [39.19056, -98.041991],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_a2c656049c45f6f99745e4b07bc3235a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e5bc7fa9a992e144d338f51b6c1f9586.setIcon(icon_a2c656049c45f6f99745e4b07bc3235a);
+        
+    
+            marker_e5bc7fa9a992e144d338f51b6c1f9586.bindTooltip(
+                `<div>
+                     Twin Farms
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_eae0c9704c4f2bd46c98821ec74ee71d = L.marker(
+                [42.2586461, -87.8407055],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_cf6cc437e2211b3fbab9b31f4ee1b298 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_eae0c9704c4f2bd46c98821ec74ee71d.setIcon(icon_cf6cc437e2211b3fbab9b31f4ee1b298);
+        
+    
+            marker_eae0c9704c4f2bd46c98821ec74ee71d.bindTooltip(
+                `<div>
+                     Deer Path Inn
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e21f69a3f4dcc117b5dba3113e858b6d = L.marker(
+                [-2.0, -30.0],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_0844c1c84d2e6cc250f984f1b6fcfc53 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e21f69a3f4dcc117b5dba3113e858b6d.setIcon(icon_0844c1c84d2e6cc250f984f1b6fcfc53);
+        
+    
+            marker_e21f69a3f4dcc117b5dba3113e858b6d.bindTooltip(
+                `<div>
+                     One&Only Nyungwe House
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_03a95d7cfb26ee329d8c9a1a5ef37117 = L.marker(
+                [-33.4084548, -70.5671489],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_9997cfeda0190fb693073aff0ce83ae0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_03a95d7cfb26ee329d8c9a1a5ef37117.setIcon(icon_9997cfeda0190fb693073aff0ce83ae0);
+        
+    
+            marker_03a95d7cfb26ee329d8c9a1a5ef37117.bindTooltip(
+                `<div>
+                     W Santiago
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_59b5f8e931cb719a6acbb6caadc68e05 = L.marker(
+                [1.357107, 103.8194992],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_507a355c4bb064366939d3ce73e867b6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_59b5f8e931cb719a6acbb6caadc68e05.setIcon(icon_507a355c4bb064366939d3ce73e867b6);
+        
+    
+            marker_59b5f8e931cb719a6acbb6caadc68e05.bindTooltip(
+                `<div>
+                     Shangri-La Singapore
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_53ceee269e7b0db007c5d81cef7f9311 = L.marker(
+                [34.0696501, -118.3963062],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_7d207b0be8df2f7051b6bf9e3e4e2590 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_53ceee269e7b0db007c5d81cef7f9311.setIcon(icon_7d207b0be8df2f7051b6bf9e3e4e2590);
+        
+    
+            marker_53ceee269e7b0db007c5d81cef7f9311.bindTooltip(
+                `<div>
+                     L'Ermitage Beverly Hills
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e1747fde947ddce4377eb436ffb4eb0b = L.marker(
+                [-33.928992, 18.417396],
+                {"radius": 10}
+            ).addTo(map_b332130205a204e862d805f5fe529e60);
+        
+    
+            var icon_528fdab046762513ebb61c668b9cb0f5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e1747fde947ddce4377eb436ffb4eb0b.setIcon(icon_528fdab046762513ebb61c668b9cb0f5);
+        
+    
+            marker_e1747fde947ddce4377eb436ffb4eb0b.bindTooltip(
+                `<div>
+                     Silo Hotel
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
