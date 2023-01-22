@@ -19,3 +19,14 @@ def add_coordinates(df, location_column):
             df.at[i, 'longitude'] = location.longitude
     return df
 
+
+def hotel_type(x):
+    '''function that clasifies the hotel in 3 categories acording to the number of rooms'''
+    if x < 150:
+         return "Small"
+    elif x >= 150 and x <= 299:
+        return "Medium"
+    elif x >= 600:
+        return "Mega"
+    else:
+         return "Big"
