@@ -30,3 +30,18 @@ def hotel_type(x):
         return "Mega"
     else:
          return "Big"
+        
+def siglo(y):
+    '''function that creates a column to see what century the hotel was built in'''
+    if y < 1600:
+         return "16"
+    elif y >= 1600 and y < 1700:
+        return "17"
+    elif y >= 1700 and y < 1800:
+        return "18"
+    elif y >= 1800 and y < 1900:
+        return "19"
+    elif y >= 1900 and y < 2000:
+        return "20"
+    else:
+         return "21"
