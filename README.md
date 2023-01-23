@@ -129,6 +129,8 @@ As future objectives it would be interesting to make a comparison with more data
 
 It would also be interesting to see what the users think about the hotels that are repeated both years in the magazine and to analyze the comments, both good and bad.
 
+Furthermore, I will include a map with the hotels.
+
 ## Libraries
 ----
 
